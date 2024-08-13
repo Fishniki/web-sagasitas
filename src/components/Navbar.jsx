@@ -1,28 +1,44 @@
 import { IoMdMenu } from "react-icons/io";
 import Logo from "../assets/furina.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [button, setButton] = useState(true);
+  const [navbarBackground, setNavbarBackground] = useState('bg-transparent');
+
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbarBackground('bg-white shadow-md');
+    } else {
+      setNavbarBackground('bg-transparent');
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground);
+    return () => {
+      window.removeEventListener('scroll', changeBackground);
+    };
+  }, []);
 
   return (
     <>
-      <div className={`${button ? 'flex' : 'hidden'} bg-[#184473] flex transition-all fixed duration-500 w-full md:p-7 px-5 p-4 justify-between`}>
+      <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} ${button ? 'flex' : 'hidden'} border-b transition-all duration-500 md:p-7 px-5 p-4 justify-between`}>
         <div className="flex items-center space-x-1">
           <img src={Logo} className="w-11" alt="Logo" />
-          <h1 className="judul font-semibold text-xl text-white">SaveLife</h1>
+          <h1 className="judul font-semibold text-xl text-black">SaveLife</h1>
         </div>
         <div className="md:flex hidden items-center">
-          <ul className="flex space-x-3 text-[17px] text-white">
-            <li>Home</li>
-            <li>Tema Sehat</li>
-            <li>Upaya Kesehatan</li>
-            <li>Tentang Kami</li>
+          <ul className="flex space-x-3 text-[17px] text-black">
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Home</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Tema Sehat</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Upaya Kesehatan</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Tentang Kami</li>
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">
-          <IoMdMenu size={25} color="white" />
+          <IoMdMenu size={25} color="black" />
         </div>
       </div>
 
@@ -32,7 +48,7 @@ const Navbar = () => {
           button ? "-right-60" : "right-0"
         } w-60 flex-col md:hidden bg-[#184473] flex fixed top-0 h-screen transition-all duration-300 ease-in-out z-50`}
       >
-        <div className="flex flex-row-reverse  items-center justify-between p-3 px-9 py-4 ">
+        <div className="flex flex-row-reverse items-center justify-between p-3 px-9 py-4">
           <FaTimes onClick={() => setButton(!button)} color="white" size={25} className="cursor-pointer" />
           <img src={Logo} className="w-11" alt="Logo" />
         </div>

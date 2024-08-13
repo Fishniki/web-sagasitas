@@ -4,7 +4,7 @@ import Home from './page/Home';
 
 function App() {
   return (
-    <div className='overflow-hidden'>
+    <div className=''>
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
