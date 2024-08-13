@@ -4,7 +4,7 @@ import Type from "../components/Type"
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Navbar/>
       <Herro/>
       <Type/>
