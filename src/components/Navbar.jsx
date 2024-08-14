@@ -1,5 +1,5 @@
 import { IoMdMenu } from "react-icons/io";
-import Logo from "../assets/furina.png";
+import Logo from "../assets/img/furina.png";
 import { useState, useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 
@@ -27,14 +27,14 @@ const Navbar = () => {
       <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} border-b transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
         <div className="flex items-center space-x-1">
           <img src={Logo} className="w-11" alt="Logo" />
-          <h1 className="judul font-semibold text-xl text-black">SaveLife</h1>
+          <h1 className=" text-xl text-black font-medium font-roboto-regular">SaveLife</h1>
         </div>
         <div className="md:flex hidden items-center">
           <ul className="flex space-x-3 text-[17px] text-black">
-            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Home</li>
-            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Tema Sehat</li>
-            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Upaya Kesehatan</li>
-            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer bg-orange-300">Tentang Kami</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Home</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tema Sehat</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Upaya Kesehatan</li>
+            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tentang Kami</li>
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">

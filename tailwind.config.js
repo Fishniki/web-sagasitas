@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        regular: ["roboto-regular"],
+        anton: ["anton-reguler"],
+        newamsterdam: ["newamsterdam"]
+      }
     },
   },
   plugins: [],

@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.judul{
-    font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: "roboto-regular";
+    src: local('Roboto-Regular'),
+        url('./assets/fonts/Roboto-Regular.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: "newamsterdam";
+    src: local('NewAmsterdam-Regular'),
+        url('./assets/fonts/NewAmsterdam-Regular.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: "oswald";
+    src: local('Oswald'),
+        url('./assets/fonts/Oswald.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: "anton-regular";
+    src: local('Anton-Regular'),
+        url('./assets/fonts/Anton-Reguler.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: "signika";
+    src: local('Signika'),
+        url('./assets/fonts/Signika.ttf') format("truetype")
 }

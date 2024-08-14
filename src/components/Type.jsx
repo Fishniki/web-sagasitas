@@ -1,6 +1,6 @@
 import { FaViruses } from "react-icons/fa";
 import { FaVirusCovid } from "react-icons/fa6";
-import type from "../assets/type.png";
+import type from "../assets/img/type.png";
 
 const Type = () => {
   return (
@@ -11,7 +11,7 @@ const Type = () => {
           <FaViruses size={100} className="group-hover:text-white md:animate-bounce text-[#6EACDA]" />
           <div className="text-start md:text-center">
             <h1 className="font-bold text-[17px]">HIV</h1> 
-            <p className="font-semibold">Human Immunodeficiency Virus</p>
+            <p className="font-semibold max-w-60">Human Immunodeficiency Virus</p>
           </div>
         </div>
         {/* Image */}
@@ -19,9 +19,9 @@ const Type = () => {
         {/* Type 2 */}
         <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#FFB200] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
           <FaVirusCovid size={80} className="text-[#FFB200] md:animate-bounce group-hover:text-white"  />
-          <div className="text-center">
+          <div className="md:text-center text-start">
             <h1 className="font-bold text-[17px]">AIDS</h1> 
-            <p className="font-semibold">Acquired Immune Deficiency Syndrome</p> 
+            <p className="font-semibold max-w-60">Acquired Immune Deficiency Syndrome</p> 
           </div>
         </div>
       </div>
