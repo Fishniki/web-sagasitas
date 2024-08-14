@@ -8,7 +8,7 @@ const Type = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-items-center">
         {/* Type 1 */}
         <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#6EACDA] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
-          <FaViruses size={100} className="group-hover:text-white md:animate-bounce text-[#6EACDA]" />
+          <FaViruses size={100} className="group-hover:text-white group-hover:animate-bounce text-[#6EACDA]" />
           <div className="text-start md:text-center">
             <h1 className="font-bold text-[17px]">HIV</h1> 
             <p className="font-semibold max-w-60">Human Immunodeficiency Virus</p>
@@ -18,7 +18,7 @@ const Type = () => {
         <img src={type} alt="Dokter Image" className="w-[80%] md:w-[400px] mx-auto hidden md:block" />
         {/* Type 2 */}
         <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#FFB200] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
-          <FaVirusCovid size={80} className="text-[#FFB200] md:animate-bounce group-hover:text-white"  />
+          <FaVirusCovid size={80} className="text-[#FFB200] group-hover:animate-bounce group-hover:text-white"  />
           <div className="md:text-center text-start">
             <h1 className="font-bold text-[17px]">AIDS</h1> 
             <p className="font-semibold max-w-60">Acquired Immune Deficiency Syndrome</p> 
