@@ -1,5 +1,5 @@
 import { IoMdMenu } from "react-icons/io";
-import Logo from "../assets/img/furina.png";
+import Logo from "../assets/img/logosl.png";
 import { useState, useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 
@@ -25,8 +25,8 @@ const Navbar = () => {
   return (
     <>
       <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} border-b transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
-        <div className="flex items-center space-x-1">
-          <img src={Logo} className="w-11" alt="Logo" />
+        <div className="flex items-center">
+          <img src={Logo} className="w-16" alt="Logo" />
           <h1 className=" text-xl text-black font-medium font-roboto-regular">SaveLife</h1>
         </div>
         <div className="md:flex hidden items-center">
