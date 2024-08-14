@@ -30,7 +30,7 @@ const Navbar = () => {
           <h1 className=" text-xl text-black font-medium font-roboto-regular">SaveLife</h1>
         </div>
         <div className="md:flex hidden items-center">
-          <ul className="flex space-x-3 text-[17px] text-black">
+          <ul className="flex space-x-3 text-[17px] text-black font-roboto font-bold">
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Home</li>
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tema Sehat</li>
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Upaya Kesehatan</li>
