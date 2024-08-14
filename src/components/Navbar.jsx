@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} ${button ? 'flex' : 'hidden'} border-b transition-all duration-500 md:p-7 px-5 p-4 justify-between`}>
+      <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} border-b transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
         <div className="flex items-center space-x-1">
           <img src={Logo} className="w-11" alt="Logo" />
           <h1 className="judul font-semibold text-xl text-black">SaveLife</h1>
@@ -38,7 +38,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">
-          <IoMdMenu size={25} color="black" />
+          {button ? <IoMdMenu size={25} color="black" /> : <FaTimes size={25} color="black" />}
         </div>
       </div>
 
@@ -46,9 +46,9 @@ const Navbar = () => {
       <div
         className={`${
           button ? "-right-60" : "right-0"
-        } w-60 flex-col md:hidden bg-[#184473] flex fixed top-0 h-screen transition-all duration-300 ease-in-out z-50`}
+        } w-60 md:hidden bg-[#184473] fixed top-0 h-screen transition-all duration-300 ease-in-out z-50`}
       >
-        <div className="flex flex-row-reverse items-center justify-between p-3 px-9 py-4">
+        <div className="flex flex-row-reverse items-center justify-between p-4">
           <FaTimes onClick={() => setButton(!button)} color="white" size={25} className="cursor-pointer" />
           <img src={Logo} className="w-11" alt="Logo" />
         </div>
