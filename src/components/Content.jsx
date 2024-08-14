@@ -42,12 +42,12 @@ return (
             </div>
         </div>
 
-        <div className="flex justify-center items-start p-6 w-full">
+        <div className="p-6 w-full flex justify-center">
   {/* Kontainer untuk kedua halaman */}
-  <div className="flex w-full max-w-6xl">
+  <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
     
     {/* page1 */}
-    <div className="flex-1 p-4">
+    <div className="p-4">
       <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
         Manfaat memiliki kesehatan <span className="text-sky-500">fisik</span>
       </h2>
@@ -57,7 +57,7 @@ return (
     </div>
 
     {/* page2 */}
-    <div className="flex-1 p-4">
+    <div className="p-4">
       <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
         Ciri-ciri tubuh memiliki <span className="text-sky-500">fisik</span> yang sehat
       </h2>
@@ -111,6 +111,7 @@ return (
 
   </div>
 </div>
+
 
     </div>
   );
