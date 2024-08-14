@@ -10,8 +10,8 @@ const Type = () => {
         <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#6EACDA] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
           <FaViruses size={100} className="group-hover:text-white group-hover:animate-bounce text-[#6EACDA]" />
           <div className="text-start md:text-center">
-            <h1 className="font-bold text-[17px]">HIV</h1> 
-            <p className="font-semibold max-w-60">Human Immunodeficiency Virus</p>
+            <h1 className=" text-[17px] font-oswald">HIV</h1> 
+            <p className="font-medium max-w-60 font-roboto">Human Immunodeficiency Virus</p>
           </div>
         </div>
         {/* Image */}
@@ -20,8 +20,8 @@ const Type = () => {
         <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#FFB200] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
           <FaVirusCovid size={80} className="text-[#FFB200] group-hover:animate-bounce group-hover:text-white"  />
           <div className="md:text-center text-start">
-            <h1 className="font-bold text-[17px]">AIDS</h1> 
-            <p className="font-semibold max-w-60">Acquired Immune Deficiency Syndrome</p> 
+            <h1 className=" text-[17px] font-oswald">AIDS</h1> 
+            <p className="font-medium max-w-60 font-roboto">Acquired Immune Deficiency Syndrome</p> 
           </div>
         </div>
       </div>
