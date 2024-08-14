@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        regular: ["roboto-regular"],
+        roboto: ["roboto-regular"],
         anton: ["anton-reguler"],
+        oswald: ["oswald"],
+        signika: ["signika"],
         newamsterdam: ["newamsterdam"]
       }
     },

@@ -7,9 +7,9 @@ const Herro = () => {
       <div className="w-full h-full">
         <img src={Hero} className="object-cover w-full h-full" alt="Hero Image" />
         <div className="absolute space-y-2 top-0 left-0 max-w-[90%] md:max-w-[600px] h-full flex flex-col items-start justify-center px-5 md:px-10">
-          <p className="text-lg md:text-xl font-bold text-orange-500">HINDARI PENYAKIT MENULAR HIV & AIDS</p>
-          <h1 className="text-slate-700 text-2xl md:text-4xl font-bold font-newamsterdam">Mencegah lebih baik dari pada mengobati</h1>
-          <button className="px-3 py-2 flex items-center gap-4 bg-red-300 rounded-lg">Pelajari Selengkapnya <FaLongArrowAltRight size={20} /></button>
+          <p className="text-lg md:text-xl font-bold text-orange-500 font-signika">HINDARI PENYAKIT MENULAR HIV & AIDS</p>
+          <h1 className="text-slate-700 text-2xl md:text-4xl  font-newamsterdam">Mencegah lebih baik dari pada mengobati</h1>
+          <button className="px-3 py-2 flex items-center gap-4 bg-orange-500 rounded-lg font-roboto">Pelajari Selengkapnya <FaLongArrowAltRight size={20} /></button>
         </div>
       </div>
     </div>
