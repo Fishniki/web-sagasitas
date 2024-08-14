@@ -1,29 +1,32 @@
-import { FaViruses } from "react-icons/fa"
-import { FaVirusCovid } from "react-icons/fa6"
-import type from "../assets/type.png"
+import { FaViruses } from "react-icons/fa";
+import { FaVirusCovid } from "react-icons/fa6";
+import type from "../assets/type.png";
 
 const Type = () => {
   return (
-    <div className="w-full items-center flex justify-evenly py-36 p-10">
-        {/* type1 */}
-      <div className="w-64 p-6 border h-64 gap-4 justify-center cursor-pointer group hover:bg-[#6EACDA] shadow-lg bg-white flex flex-col items-center rounded-md">
-        <FaViruses size={100} className="group-hover:text-white animate-bounce text-[#6EACDA]" />
-        <div className="text-center">
+    <div className="flex flex-col items-center md:py-20 py-5 px-5 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-items-center">
+        {/* Type 1 */}
+        <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#6EACDA] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
+          <FaViruses size={100} className="group-hover:text-white md:animate-bounce text-[#6EACDA]" />
+          <div className="text-start md:text-center">
             <h1 className="font-bold text-[17px]">HIV</h1> 
-            <p className="font-semibold">Human Immunodeficiency Virus</p> 
+            <p className="font-semibold">Human Immunodeficiency Virus</p>
+          </div>
         </div>
-      </div>
-      <img src={type} alt="Dokter Image" className="w-[400px]" />
-      {/* type2 */}
-      <div className="w-64 p-6 border justify-center gap-4 h-64 cursor-pointer hover:bg-[#FFB200] group shadow-lg bg-white flex flex-col items-center rounded-md">
-        <FaVirusCovid size={80} className="text-[#FFB200] animate-bounce group-hover:text-white"  />
-        <div className="text-center">
+        {/* Image */}
+        <img src={type} alt="Dokter Image" className="w-[80%] md:w-[400px] mx-auto hidden md:block" />
+        {/* Type 2 */}
+        <div className="md:w-64 p-6 border md:h-64 h-40 gap-4 justify-center cursor-pointer group hover:bg-[#FFB200] shadow-lg bg-white flex flex-row md:flex-col items-center rounded-md">
+          <FaVirusCovid size={80} className="text-[#FFB200] md:animate-bounce group-hover:text-white"  />
+          <div className="text-center">
             <h1 className="font-bold text-[17px]">AIDS</h1> 
             <p className="font-semibold">Acquired Immune Deficiency Syndrome</p> 
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default Type
+export default Type;
