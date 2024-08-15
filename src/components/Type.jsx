@@ -20,7 +20,7 @@ const Type = () => {
         <div className="w-screen md:w-64 p-6 border h-24 sm:h-40 md:h-64 flex flex-row md:flex-col items-center gap-4 justify-center cursor-pointer group hover:bg-[#6EACDA] shadow-lg bg-white rounded-md">
           <RiMentalHealthFill className="text-4xl md:text-6xl text-[#6EACDA] group-hover:text-white group-hover:animate-bounce" />
           <div className="text-start md:text-center">
-            <h1 className="text-xl sm:text-[17px] md:text-2xl font-oswald">Sehat Mental</h1>
+            <h1 className="text-xl sm:text-[17px] md:text-2xl font-oswald">Sehat Jiwa</h1>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ const Type = () => {
         <div className="w-screen md:w-64 p-6 border h-24 sm:h-40 md:h-64 flex flex-row md:flex-col items-center gap-4 justify-center cursor-pointer group hover:bg-[#FFB200] shadow-lg bg-white rounded-md">
           <GiLoveInjection className="text-4xl md:text-6xl text-[#FFB200] group-hover:text-white group-hover:animate-bounce" />
           <div className="text-start md:text-center">
-            <h1 className="text-xl sm:text-[17px] md:text-2xl font-oswald">Imunisasi</h1>
+            <h1 className="text-xl sm:text-[17px] md:text-2xl font-oswald">Sehat imunisasi</h1>
           </div>
         </div>
 

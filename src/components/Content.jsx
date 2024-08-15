@@ -3,10 +3,10 @@ import Fisik from "../assets/img/sfisik2.png";
 
 const Content = () => {
 return (
-    <div className="mt-20">
+    <div className="mt-20 ">
         <div className="container px-6 mb-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:px-0">
             <h3 className="text-4xl font-bold font-signika mb-10 text-slate-800 sm:text-5xl md:text-5xl text-center">
-                Sehat <span className="text-sky-500">Fisik</span>
+                Sehat <span className="text-sky-500">Bergizi</span>
             </h3>
             <div className="lg:flex lg:items-center lg:space-x-12 lg:p-12">
             <div className="lg:w-1/2 h-full">
@@ -20,18 +20,17 @@ return (
 
             <div className="lg:w-1/2">
                 <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-                Mengapa sehat <span className="text-sky-500">fisik</span> sangatlah penting?
+                Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
                 </h2>
                 <p className="mt-2 text-slate-600 sm:text-xl">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
-                labore atque dolore rerum praesentium accusantium vero, ipsam quod
-                nostrum aut id, voluptatum unde, doloribus voluptate maiores illo
-                perferendis nemo! Maiores.
+                Gizi adalah zat makanan pokok yang diperlukan bagi pertumbuhan dan kesehatan tubuh. 
+                Gizi seimbang adalah susunan makanan sehari-hari yang mengandung zat gizi dalam jenis dan 
+                jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin, umur dan status kesehatan. 
                 </p>
 
                 <div className="mt-4 sm:mt-6 group">
                     <a
-                        href="/"
+                        href="#pembahasan"
                         className="inline-flex items-center px-5 py-3 bg-sky-500 text-white rounded-md shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base transition-all duration-300 hover:bg-sky-600"
                     >
                     Lanjut
@@ -44,15 +43,21 @@ return (
 
         <div className="p-6 w-full flex justify-center">
   {/* Kontainer untuk kedua halaman */}
-  <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
     
     {/* page1 */}
     <div className="p-4">
-      <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-        Manfaat memiliki kesehatan <span className="text-sky-500">fisik</span>
+      <h2 className="mt-6 text-2xl font-semibold mb-3 text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
+        Empat pillar <span className="text-sky-500">gizi</span> seimbang
       </h2>
       <div>
-        {/* Konten halaman 1 */}
+        <ul className="max-w-[500px] space-y-2 font-roboto text-[17px] md:text-xl list-disc">
+          <li>Mengonsumsi anekaragam pangan dengan proporsi makanan yang seimbang 
+            (karbohidrat, lemak, protein, mineral dan vitamin)</li>
+          <li>Membiasakan perilaku hidup bersih</li>
+          <li>Melakukan aktivitas fisik yang teratur</li>
+          <li>Memantau Berat Badan (BB) secara teratur untuk mempertahankan berat badan normal</li>
+        </ul>
       </div>
     </div>
 
