@@ -1,15 +1,17 @@
 import { FaArrowRight } from "react-icons/fa6";
 import Fisik from "../assets/img/sfisik2.png";
+import Konten from "../assets/img/conten.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
 
 const Content = () => {
 
-  const [visibleSections, setVisibleSections] = useState(Array(4).fill(false));
+  const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
 
   // Content for each section
   const sectionContents = [
+    "Tubuh yang tidak mendapatkan asupan nutrisi yang cukup akan lebih rentan terhadap infeksi dan penyakit. Sistem kekebalan tubuh memerlukan nutrisi yang tepat untuk berfungsi secara optimal.",
     "Pada anak-anak dan remaja, kekurangan nutrisi dapat menghambat pertumbuhan fisik dan perkembangan mental. Ini bisa berakibat pada tinggi badan yang tidak optimal, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
     "Tanpa nutrisi yang cukup, tubuh tidak memiliki bahan bakar yang diperlukan untuk menghasilkan energi. Ini bisa menyebabkan kelelahan kronis, kurangnya konsentrasi, dan produktivitas yang menurun.",
     "Kekurangan nutrisi tertentu, seperti vitamin B, asam lemak omega-3, dan mineral, dapat berkontribusi pada masalah kesehatan mental seperti depresi, kecemasan, dan gangguan suasana hati.",
@@ -17,6 +19,7 @@ const Content = () => {
   ];
 
   const sectionTitles = [
+    "Penurunan Sistem Imun",
     "Pertumbuhan Terhambat",
     "Kelelahan dan Penurunan Energi",
     "Gangguan Kesehatan Mental",
@@ -138,34 +141,40 @@ return (
         </div>
 
       <div>
-      <div className="p-6">
-      <h1 className="text-center font-signika text-3xl">
-        Dampak apabila tidak mengonsumsi makanan bergizi
-      </h1>
+        <div className="p-6">
+        <h1 className="text-center font-signika text-3xl">
+          Dampak apabila tidak mengonsumsi makanan bergizi
+        </h1>
 
-      <div className="flex flex-col items-center">
-        {sectionContents.map((content, index) => (
-          <div
-            key={index}
-            className="bg-red-50 border py-3 px-5 w-full max-w-[500px] shadow-lg rounded-md mt-4"
-          >
-            <div className="flex items-center gap-2 font-signika justify-between">
-              {sectionTitles[index]}
-              <button onClick={() => toggleSection(index)}>
-                {visibleSections[index] ? <FiMinus size={20} /> : <MdAdd size={20} />}
-              </button>
-            </div>
-            <div className={`${visibleSections[index] ? 'block' : 'hidden'}`}>
-              <p className="text-start mt-5">
-                {content}
-              </p>
-            </div>
+        <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start lg:justify-between">
+          <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-6 lg:mb-0">
+            <img src={Konten} alt="image" className="max-w-full h-auto" />
           </div>
-        ))}
+
+          <div className="w-full lg:w-1/2">
+            {sectionContents.map((content, index) => (
+              <div
+                key={index}
+                className="bg-red-50 border py-3 px-5 w-full max-w-[500px] mx-auto lg:mx-0 shadow-lg rounded-md mt-4"
+              >
+                <div className="flex items-center gap-2 font-signika justify-between">
+                  {sectionTitles[index]}
+                  <button onClick={() => toggleSection(index)}>
+                    {visibleSections[index] ? <FiMinus size={20} /> : <MdAdd size={20} />}
+                  </button>
+                </div>
+                <div className={`${visibleSections[index] ? 'block' : 'hidden'}`}>
+                  <p className="text-start mt-5">
+                    {content}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
-      </div>
-        
+            
     </div>
   );
 };
