@@ -2,10 +2,32 @@ import { FaArrowRight } from "react-icons/fa6";
 import Fisik from "../assets/img/sfisik2.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
+import { FiMinus } from "react-icons/fi";
 
 const Content = () => {
 
-  const[page, setPage] = useState(true)
+  const [visibleSections, setVisibleSections] = useState(Array(4).fill(false));
+
+  // Content for each section
+  const sectionContents = [
+    "Pada anak-anak dan remaja, kekurangan nutrisi dapat menghambat pertumbuhan fisik dan perkembangan mental. Ini bisa berakibat pada tinggi badan yang tidak optimal, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
+    "Tanpa nutrisi yang cukup, tubuh tidak memiliki bahan bakar yang diperlukan untuk menghasilkan energi. Ini bisa menyebabkan kelelahan kronis, kurangnya konsentrasi, dan produktivitas yang menurun.",
+    "Kekurangan nutrisi tertentu, seperti vitamin B, asam lemak omega-3, dan mineral, dapat berkontribusi pada masalah kesehatan mental seperti depresi, kecemasan, dan gangguan suasana hati.",
+    "Tidak mengonsumsi makanan bergizi dapat menyebabkan masalah berat badan, baik kelebihan berat badan maupun kekurangan berat badan. Diet yang tidak seimbang bisa menyebabkan penumpukan lemak yang berlebihan atau, sebaliknya, penurunan berat badan yang tidak sehat."
+  ];
+
+  const sectionTitles = [
+    "Pertumbuhan Terhambat",
+    "Kelelahan dan Penurunan Energi",
+    "Gangguan Kesehatan Mental",
+    "Masalah Berat Badan"
+  ];
+
+  const toggleSection = (index) => {
+    const newVisibility = [...visibleSections];
+    newVisibility[index] = !newVisibility[index];
+    setVisibleSections(newVisibility);
+  };
 
 return (
     <div className="mt-20 ">
@@ -115,19 +137,34 @@ return (
   </div>
         </div>
 
-        <div>
-          <div className="p-6">
-            <h1 className="text-center font-signika text-3xl">Dampak apabila tidak mengonsumsi makanan bergizi</h1>
-            
-            <div className="inline-block h-auto bg-red-50 border py-3 px-5 shadow-lg rounded-md">
-              <div className="flex items-center gap-2 font-signika">Penurunan sistem imun <MdAdd onClick={() => setPage(!page)} /></div>
-              <div className={`${page ? 'hidden' : 'block'}`}>
-                <p className="max-w-[500px]">Tubuh yang tidak mendapatkan asupan nutrisi yang cukup akan lebih rentan terhadap infeksi dan penyakit. 
-                  Sistem kekebalan tubuh memerlukan nutrisi yang tepat untuk berfungsi secara optimal.</p>
-              </div>
+      <div>
+      <div className="p-6">
+      <h1 className="text-center font-signika text-3xl">
+        Dampak apabila tidak mengonsumsi makanan bergizi
+      </h1>
+
+      <div className="flex flex-col items-center">
+        {sectionContents.map((content, index) => (
+          <div
+            key={index}
+            className="bg-red-50 border py-3 px-5 w-full max-w-[500px] shadow-lg rounded-md mt-4"
+          >
+            <div className="flex items-center gap-2 font-signika justify-between">
+              {sectionTitles[index]}
+              <button onClick={() => toggleSection(index)}>
+                {visibleSections[index] ? <FiMinus size={20} /> : <MdAdd size={20} />}
+              </button>
+            </div>
+            <div className={`${visibleSections[index] ? 'block' : 'hidden'}`}>
+              <p className="text-start mt-5">
+                {content}
+              </p>
             </div>
           </div>
-        </div>
+        ))}
+      </div>
+    </div>
+      </div>
         
     </div>
   );
