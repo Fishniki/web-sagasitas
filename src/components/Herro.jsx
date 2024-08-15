@@ -1,5 +1,5 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import Hero from "../assets/img/hero2.png";
+import Hero from "../assets/img/hero3.jpeg";
 
 const Herro = () => {
   return (

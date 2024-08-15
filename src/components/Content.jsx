@@ -64,38 +64,31 @@ return (
     {/* page2 */}
     <div className="p-4">
       <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-        Ciri-ciri tubuh memiliki <span className="text-sky-500">fisik</span> yang sehat
+        Tips memilih makanan yang <span className="text-sky-500">bergizi</span>
       </h2>
       <div className="h-96 overflow-y-auto">
         {[
           {
             title: 'Sistem tubuh berfungsi dengan baik',
             items: [
-              'Lambung tidak terasa nyeri saat mengkonsumsi makanan',
-              'Tenggorokan tidak sakit saat menelan mengkonsumsi makanan'
+              'Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya',
+              'Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah - buahan yang mengandung bnayaknya vitamin'
             ]
           },
           {
             title: 'Sistem tubuh berfungsi dengan baik',
             items: [
-              'Lambung tidak terasa nyeri saat mengkonsumsi makanan',
-              'Tenggorokan tidak sakit saat menelan mengkonsumsi makanan'
+              'Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh',
+              'Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan'
             ]
           },
           {
             title: 'Sistem tubuh berfungsi dengan baik',
             items: [
-              'Lambung tidak terasa nyeri saat mengkonsumsi makanan',
-              'Tenggorokan tidak sakit saat menelan mengkonsumsi makanan'
+              'Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan',
+              'Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin'
             ]
           },
-          {
-            title: 'Sistem tubuh berfungsi dengan baik',
-            items: [
-              'Lambung tidak terasa nyeri saat mengkonsumsi makanan',
-              'Tenggorokan tidak sakit saat menelan mengkonsumsi makanan'
-            ]
-          }
         ].map((section, index) => (
           <div key={index} className="inline-block mb-1">
             <div className="flex py-5 gap-2 px-5 rounded-lg shadow-lg border">
