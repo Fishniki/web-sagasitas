@@ -43,7 +43,7 @@ return (
                 <img
                 src={Fisik}
                 alt="Sehat Fisik"
-                className="mt-4 rounded-tr-full rounded-bl-full md:rounded-tr-[500px] md:rounded-bl-[500px] border shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover sm:object-center"
+                className="mt-4 rounded-tr-full rounded-bl-full md:rounded-tr-xl md:rounded-bl-xl lg:rounded-xl border shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover sm:object-center"
                 />
                 <p className="font-light text-[15px] mt-3 text-center italic">Gambar 1. Olahraga Pagi(Sumber : RRI.co.id)</p>
             </div>
@@ -53,7 +53,7 @@ return (
                 Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
                 </h2>
                 <p className="mt-2 text-slate-600 sm:text-xl">
-                Gizi adalah zat makanan pokok yang diperlukan bagi pertumbuhan dan kesehatan tubuh. 
+                Karena gizi adalah zat makanan pokok yang diperlukan bagi pertumbuhan dan kesehatan tubuh. 
                 Gizi seimbang adalah susunan makanan sehari-hari yang mengandung zat gizi dalam jenis dan 
                 jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin, umur dan status kesehatan. 
                 </p>
@@ -97,65 +97,64 @@ return (
               Tips hidup sehat <span className="text-sky-500">bergizi</span>
             </h2>
             <div className="h-96 overflow-y-auto">
-              {[
-                {
-                  title: 'Sistem tubuh berfungsi dengan baik',
-                  items: [
-                    'Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya',
-                    'Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin'
-                  ]
-                },
-                {
-                  title: 'Sistem tubuh berfungsi dengan baik',
-                  items: [
-                    'Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh',
-                    'Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan'
-                  ]
-                },
-                {
-                  title: 'Sistem tubuh berfungsi dengan baik',
-                  items: [
-                    'Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan',
-                    'Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin'
-                  ]
-                },
-              ].map((section, index) => (
-                <div key={index} className="inline-block mb-1">
-                  <div className="flex py-5 gap-2 px-5 rounded-lg shadow-lg border">
-                    <div className="w-2 rounded-md bg-sky-500 block"></div>
-                    <div>
-                      <h1 className="font-medium font-signika">{section.title}</h1>
-                      <ul className="list-disc pl-5 space-y-1">
-                        {section.items.map((item, idx) => (
-                          <li key={idx}>{item}</li>
-                        ))}
-                      </ul>
+                {[
+                  {
+                    title: 'Sistem tubuh berfungsi dengan baik',
+                    items: [
+                      'Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya',
+                      'Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin'
+                    ]
+                  },
+                  {
+                    title: 'Sistem tubuh berfungsi dengan baik',
+                    items: [
+                      'Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh',
+                      'Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan'
+                    ]
+                  },
+                  {
+                    title: 'Sistem tubuh berfungsi dengan baik',
+                    items: [
+                      'Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan',
+                      'Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin'
+                    ]
+                  },
+                ].map((section, index) => (
+                  <div key={index} className="inline-block mb-1">
+                    <div className="flex py-5 gap-2 px-5 rounded-lg border">
+                      <div className="w-2 min-w-[5px] rounded-md bg-sky-500"></div>
+                      <div>
+                        <h1 className="font-medium font-signika">{section.title}</h1>
+                        <ul className="list-disc pl-5 space-y-1">
+                          {section.items.map((item, idx) => (
+                            <li key={idx}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
             </div>
+
           </div>
 
   </div>
         </div>
 
       <div>
-        <div className="p-6">
-        <h1 className="text-center font-signika text-3xl">
-          Dampak apabila tidak mengonsumsi makanan bergizi
+        <div className="p-6 my-5">
+        <h1 className="text-center mb-10 font-signika mb text-2xl md:text-3xl lg:text-4xl">
+          Dampak apabila tidak mengonsumsi makanan <span className="text-sky-500">bergizi</span>
         </h1>
 
-        <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start lg:justify-between">
-          <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-6 lg:mb-0">
-            <img src={Konten} alt="image" className="max-w-full h-auto" />
-          </div>
+        <div className="flex flex-col lg:px-40 w-full lg:flex-row-reverse items-center justify-evenly">
+            <img src={Konten} alt="image" className="md:w-[50%] w-full h-auto" />
 
-          <div className="w-full lg:w-1/2">
+          <div className="w-full">
             {sectionContents.map((content, index) => (
               <div
                 key={index}
-                className="bg-red-50 border py-3 px-5 w-full max-w-[500px] mx-auto lg:mx-0 shadow-lg rounded-md mt-4"
+                className=" border py-3 px-5 w-full max-w-[500px] mx-auto lg:mx-0 shadow-lg rounded-md mt-4"
               >
                 <div className="flex items-center gap-2 font-signika justify-between">
                   {sectionTitles[index]}
@@ -164,7 +163,7 @@ return (
                   </button>
                 </div>
                 <div className={`${visibleSections[index] ? 'block' : 'hidden'}`}>
-                  <p className="text-start mt-5">
+                  <p className="text-start mt-5 font-roboto">
                     {content}
                   </p>
                 </div>

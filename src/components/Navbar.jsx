@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} border-b transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
+      <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
         <div className="flex items-center">
           <img src={Logo} className="w-16" alt="Logo" />
           <h1 className=" text-xl text-black font-medium font-roboto-regular">SaveLife</h1>
