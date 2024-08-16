@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Fisik from "../assets/img/sfisik2.png";
+import Food from "../assets/img/food.png";
 import Konten from "../assets/img/conten.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
@@ -34,21 +34,20 @@ const Content = () => {
 
 return (
     <div className="mt-20 ">
-        <div className="container px-6 mb-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:px-64">
+        <div className="container px-6 mb-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full  lg:px-64">
             <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
                 Sehat <span className="text-sky-500">Bergizi</span>
             </h3>
-            <div className="lg:flex lg:items-center lg:space-x-12">
-            <div className="lg:w-1/2 h-full">
+            <div className="lg:flex lg:items-center lg:gap-10">
+            <div className="lg:w-1/2 h-full justify-center flex">
                 <img
-                src={Fisik}
+                src={Food}
                 alt="Sehat Fisik"
-                className="mt-4 rounded-tr-full rounded-bl-full md:rounded-tr-xl md:rounded-bl-xl lg:rounded-xl border shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover sm:object-center"
+                className="w-72 lg:w-96"
                 />
-                <p className="font-light text-[15px] mt-3 text-center italic">Gambar 1. Olahraga Pagi(Sumber : RRI.co.id)</p>
             </div>
 
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 lg:max-w-[30%]">
                 <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
                 Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
                 </h2>
@@ -66,7 +65,7 @@ return (
                     Lanjut
                     <FaArrowRight className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
-        </div>
+            </div>
             </div>
             </div>
         </div>
@@ -76,8 +75,8 @@ return (
           <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
             
             {/* page1 */}
-            <div className="p-10 rounded-md border shadow-lg  ">
-              <h2 className="mt-6 text-2xl font-semibold mb-3 text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
+            <div className="p-10 rounded-md border shadow-lg  bg-sky-400 bg-opacity-5 flex flex-col items-center">
+              <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
                 Empat pillar <span className="text-sky-500">gizi</span> seimbang
               </h2>
               <div>
@@ -156,13 +155,13 @@ return (
                 key={index}
                 className=" border py-3 px-5 w-full max-w-[500px] mx-auto lg:mx-0 shadow-lg rounded-md mt-4"
               >
-                <div className="flex items-center gap-2 font-signika justify-between">
+                <div className="flex lg:text-xl items-center gap-2 font-signika justify-between">
                   {sectionTitles[index]}
                   <button onClick={() => toggleSection(index)}>
                     {visibleSections[index] ? <FiMinus size={20} /> : <MdAdd size={20} />}
                   </button>
                 </div>
-                <div className={`${visibleSections[index] ? 'block' : 'hidden'}`}>
+                <div className={`${visibleSections[index] ? 'block ' : 'hidden'}`}>
                   <p className="text-start mt-5 font-roboto">
                     {content}
                   </p>
