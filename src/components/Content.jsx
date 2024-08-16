@@ -34,12 +34,12 @@ const Content = () => {
 
 return (
     <div className="mt-20 ">
-        <div className="container px-6 mb-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:px-40">
+        <div className="container px-6 mb-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:px-64">
             <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
                 Sehat <span className="text-sky-500">Bergizi</span>
             </h3>
             <div className="lg:flex lg:items-center lg:space-x-12">
-            <div className="lg:w-[50%] h-full">
+            <div className="lg:w-1/2 h-full">
                 <img
                 src={Fisik}
                 alt="Sehat Fisik"
@@ -71,83 +71,83 @@ return (
             </div>
         </div>
 
-        <div className="p-6 w-full flex justify-center">
+        <div className="p-6 py-20 w-full flex justify-center ">
         {/* Kontainer untuk kedua halaman */}
-        <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
-          
-          {/* page1 */}
-          <div className="p-10 bg-sky-300 bg-opacity-10">
-            <h2 className="mt-6 text-2xl font-semibold mb-3 text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Empat pillar <span className="text-sky-500">gizi</span> seimbang
-            </h2>
-            <div>
-              <ul className="max-w-[500px] space-y-2 font-roboto text-[17px] md:text-xl list-disc">
-                <li>Mengonsumsi anekaragam pangan dengan proporsi makanan yang seimbang 
-                  (karbohidrat, lemak, protein, mineral dan vitamin)</li>
-                <li>Membiasakan perilaku hidup bersih</li>
-                <li>Melakukan aktivitas fisik yang teratur</li>
-                <li>Memantau Berat Badan (BB) secara teratur untuk mempertahankan berat badan normal</li>
-              </ul>
+          <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
+            
+            {/* page1 */}
+            <div className="p-10 rounded-md border shadow-lg  ">
+              <h2 className="mt-6 text-2xl font-semibold mb-3 text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
+                Empat pillar <span className="text-sky-500">gizi</span> seimbang
+              </h2>
+              <div>
+                <ul className="max-w-[500px] space-y-2 font-roboto text-[15px] md:text-xl list-decimal">
+                  <li>Mengonsumsi anekaragam pangan dengan proporsi makanan yang seimbang 
+                    (karbohidrat, lemak, protein, mineral dan vitamin)</li>
+                  <li>Membiasakan perilaku hidup bersih</li>
+                  <li>Melakukan aktivitas fisik yang teratur</li>
+                  <li>Memantau Berat Badan (BB) secara teratur untuk mempertahankan berat badan normal</li>
+                </ul>
+              </div>
             </div>
-          </div>
 
-          {/* page2 */}
-          <div className="p-4">
-            <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips hidup sehat <span className="text-sky-500">bergizi</span>
-            </h2>
-            <div className="h-96 overflow-y-auto">
-                {[
-                  {
-                    title: 'Sistem tubuh berfungsi dengan baik',
-                    items: [
-                      'Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya',
-                      'Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin'
-                    ]
-                  },
-                  {
-                    title: 'Sistem tubuh berfungsi dengan baik',
-                    items: [
-                      'Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh',
-                      'Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan'
-                    ]
-                  },
-                  {
-                    title: 'Sistem tubuh berfungsi dengan baik',
-                    items: [
-                      'Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan',
-                      'Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin'
-                    ]
-                  },
-                ].map((section, index) => (
-                  <div key={index} className="inline-block mb-1">
-                    <div className="flex py-5 gap-2 px-5 rounded-lg border">
-                      <div className="w-2 min-w-[5px] rounded-md bg-sky-500"></div>
-                      <div>
-                        <h1 className="font-medium font-signika">{section.title}</h1>
-                        <ul className="list-disc pl-5 space-y-1">
-                          {section.items.map((item, idx) => (
-                            <li key={idx}>{item}</li>
-                          ))}
-                        </ul>
+            {/* page2 */}
+            <div className="p-4">
+              <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
+                Tips hidup sehat <span className="text-sky-500">bergizi</span>
+              </h2>
+              <div className="h-96 overflow-y-auto">
+                  {[
+                    {
+                      title: 'Sistem tubuh berfungsi dengan baik',
+                      items: [
+                        'Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya',
+                        'Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin'
+                      ]
+                    },
+                    {
+                      title: 'Sistem tubuh berfungsi dengan baik',
+                      items: [
+                        'Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh',
+                        'Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan'
+                      ]
+                    },
+                    {
+                      title: 'Sistem tubuh berfungsi dengan baik',
+                      items: [
+                        'Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan',
+                        'Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin'
+                      ]
+                    },
+                  ].map((section, index) => (
+                    <div key={index} className="inline-block mb-1">
+                      <div className="flex py-5 gap-2 px-5 rounded-lg border">
+                        <div className="w-2 min-w-[5px] rounded-md bg-sky-500"></div>
+                        <div>
+                          <h1 className="font-medium font-signika">{section.title}</h1>
+                          <ul className="list-disc pl-5 space-y-1">
+                            {section.items.map((item, idx) => (
+                              <li key={idx}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+              </div>
+
             </div>
 
           </div>
-
-  </div>
         </div>
 
       <div>
         <div className="p-6 my-5">
-        <h1 className="text-center mb-10 font-signika mb text-2xl md:text-3xl lg:text-4xl">
+        <h1 className="md:text-center text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
           Dampak apabila tidak mengonsumsi makanan <span className="text-sky-500">bergizi</span>
         </h1>
 
-        <div className="flex flex-col lg:px-40 w-full lg:flex-row-reverse items-center justify-evenly">
+        <div className="flex flex-col lg:px-80 w-full lg:flex-row-reverse items-center justify-evenly">
             <img src={Konten} alt="image" className="md:w-[50%] w-full h-auto" />
 
           <div className="w-full">
