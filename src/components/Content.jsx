@@ -4,6 +4,7 @@ import Konten from "../assets/img/conten.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
+import Sepeda from "../assets/img/pesepeda.png"
 
 const Content = () => {
 
