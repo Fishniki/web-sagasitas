@@ -1,5 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
 import Food from "../assets/img/food.png";
+import Bg from "../assets/img/hero.svg"
 import Konten from "../assets/img/conten.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
@@ -34,41 +35,42 @@ const Content = () => {
 
 return (
     <div className="mt-20 ">
-        <div className="container px-6 mb-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full  lg:px-64">
-            <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
-                Sehat <span className="text-sky-500">Bergizi</span>
-            </h3>
-            <div className="lg:flex lg:items-center lg:gap-10">
-            <div className="lg:w-1/2 h-full justify-center flex">
-                <img
+        <div className="relative bg-cover bg-center bg-no-repeat px-6 py-44 mb-10 bg-opacity-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:px-64" style={{ backgroundImage: `url(${Bg})` }}>
+    <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
+        Sehat <span className="text-sky-500">Bergizi</span>
+    </h3>
+    <div className="lg:flex lg:items-center lg:gap-10">
+        <div className="lg:w-1/2 h-full justify-center flex">
+            <img
                 src={Food}
                 alt="Sehat Fisik"
                 className="w-72 lg:w-96"
-                />
-            </div>
+            />
+        </div>
 
-            <div className="lg:w-1/2 lg:max-w-96">
-                <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
+        <div className="lg:w-1/2 lg:max-w-96">
+            <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
                 Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
-                </h2>
-                <p className="mt-2 text-slate-600 text-start sm:text-xl">
+            </h2>
+            <p className="mt-2 text-slate-600 text-start sm:text-xl">
                 Karena gizi adalah zat makanan pokok yang diperlukan bagi pertumbuhan dan kesehatan tubuh. 
                 Gizi seimbang adalah susunan makanan sehari-hari yang mengandung zat gizi dalam jenis dan 
                 jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin, umur dan status kesehatan. 
-                </p>
+            </p>
 
-                <div className="mt-4 sm:mt-6 group">
-                    <a
-                        href="#pembahasan"
-                        className="inline-flex items-center px-5 py-3 bg-sky-500 text-white rounded-md shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base transition-all duration-300 hover:bg-sky-600"
-                    >
+            <div className="mt-4 sm:mt-6 group">
+                <a
+                    href="#pembahasan"
+                    className="inline-flex items-center px-5 py-3 bg-sky-500 text-white rounded-md shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base transition-all duration-300 hover:bg-sky-600"
+                >
                     Lanjut
                     <FaArrowRight className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
             </div>
-            </div>
-            </div>
         </div>
+    </div>
+        </div>
+
 
         <div className="p-6 py-20 w-full flex justify-center backdrop-blur-lg">
         {/* Kontainer untuk kedua halaman */}
