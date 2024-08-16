@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
         <div className="flex items-center gap-1">
           <img src={Logo} className="w-10" alt="Logo" />
-          <h1 className=" text-xl font-medium font-oswald text-orange-600">Save<span className="text-sky-600">Life</span></h1>
+          <h1 className=" text-xl font-medium font-oswald stroke-black text-sky-600">Save<span className="text-orange-600">Life</span></h1>
         </div>
         <div className="md:flex hidden items-center">
           <ul className="flex space-x-3 text-[17px] text-black font-roboto font-bold">
