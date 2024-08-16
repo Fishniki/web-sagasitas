@@ -5,7 +5,7 @@ import { RiMentalHealthFill } from "react-icons/ri";
 
 const Type = () => {
   return (
-    <div className="flex flex-col items-center py-5 px-5 md:py-20 md:px-20">
+    <div className="flex flex-col items-center py-5 lg:py-10 px-5 md:py-20 md:px-20">
       <h1 className="font-newamsterdam text-2xl md:text-3xl py-3">Tema Utama</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 justify-items-center">
         {/* Type 1 */}
