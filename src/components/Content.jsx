@@ -1,11 +1,9 @@
 import { FaArrowRight } from "react-icons/fa6";
 import Food from "../assets/img/food.png";
-import Bg from "../assets/img/hero.svg"
 import Konten from "../assets/img/conten.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
-import Sepeda from "../assets/img/pesepeda.png"
 
 const Content = () => {
 
@@ -36,49 +34,48 @@ const Content = () => {
 
 return (
     <div className="mt-20 ">
-        <div className="relative bg-cover bg-center bg-no-repeat px-6 py-44 mb-10 bg-opacity-10 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:px-64" style={{ backgroundImage: `url(${Bg})` }}>
-    <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
-        Sehat <span className="text-sky-500">Bergizi</span>
-    </h3>
-    <div className="lg:flex lg:items-center lg:gap-10">
-        <div className="lg:w-1/2 h-full justify-center flex">
-            <img
+        <div className="container px-6 mb-10 py-20 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full  xl:px-64">
+            <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
+                Sehat <span className="text-sky-500">Bergizi</span>
+            </h3>
+            <div className="lg:flex lg:items-center lg:gap-10">
+            <div className="lg:w-1/2 h-full justify-center flex">
+                <img
                 src={Food}
                 alt="Sehat Fisik"
                 className="w-72 lg:w-96"
-            />
-        </div>
+                />
+            </div>
 
-        <div className="lg:w-1/2 lg:max-w-96">
-            <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
+            <div className="lg:w-1/2 max-w-full xl:max-w-full">
+                <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
                 Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
-            </h2>
-            <p className="mt-2 text-slate-600 text-start sm:text-xl">
+                </h2>
+                <p className="mt-2 text-slate-600 text-start sm:text-xl">
                 Karena gizi adalah zat makanan pokok yang diperlukan bagi pertumbuhan dan kesehatan tubuh. 
                 Gizi seimbang adalah susunan makanan sehari-hari yang mengandung zat gizi dalam jenis dan 
                 jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin, umur dan status kesehatan. 
-            </p>
+                </p>
 
-            <div className="mt-4 sm:mt-6 group">
-                <a
-                    href="#pembahasan"
-                    className="inline-flex items-center px-5 py-3 bg-sky-500 text-white rounded-md shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base transition-all duration-300 hover:bg-sky-600"
-                >
+                <div className="mt-4 sm:mt-6 group">
+                    <a
+                        href="#pembahasan"
+                        className="inline-flex items-center px-5 py-3 bg-sky-500 text-white rounded-md shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base transition-all duration-300 hover:bg-sky-600"
+                    >
                     Lanjut
                     <FaArrowRight className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
             </div>
+            </div>
+            </div>
         </div>
-    </div>
-        </div>
-
 
         <div className="p-6 py-20 w-full flex justify-center backdrop-blur-lg">
         {/* Kontainer untuk kedua halaman */}
           <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
             
             {/* page1 */}
-            <div className="p-10 rounded-md border shadow-lg  bg-sky-400 bg-opacity-5">
+            <div className="p-10 w-full border shadow-lg  bg-sky-400 bg-opacity-5">
               <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
                 Empat pillar <span className="text-sky-500">gizi</span> seimbang
               </h2>
@@ -93,8 +90,8 @@ return (
               </div>
             </div>
 
-            {/* page2 */}
-            <div className="p-4">
+              {/* page2 */}
+              <div className="p-4">
               <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
                 Tips hidup sehat <span className="text-sky-500">bergizi</span>
               </h2>
@@ -149,14 +146,14 @@ return (
           Dampak apabila tidak mengonsumsi makanan <span className="text-sky-500">bergizi</span>
         </h1>
 
-        <div className="flex flex-col lg:px-80 w-full lg:flex-row-reverse items-center justify-evenly">
+        <div className="flex flex-col xl:px-80 w-full lg:flex-row-reverse items-center justify-evenly">
             <img src={Konten} alt="image" className="md:w-[50%] w-full h-auto" />
 
           <div className="w-full">
             {sectionContents.map((content, index) => (
               <div
                 key={index}
-                className=" border py-3 px-5 w-full max-w-[500px] mx-auto lg:mx-0 shadow-lg rounded-md mt-4"
+                className=" border py-3 px-5 w-full max-w-[500px]  mx-auto lg:mx-0 shadow-lg rounded-md mt-4"
               >
                 <div className="flex lg:text-xl items-center gap-2 font-signika justify-between">
                   {sectionTitles[index]}
@@ -164,7 +161,7 @@ return (
                     {visibleSections[index] ? <FiMinus size={20} /> : <MdAdd size={20} />}
                   </button>
                 </div>
-                <div className={`${visibleSections[index] ? 'block ' : 'hidden'}`}>
+                <div className={`${visibleSections[index] ? 'block' : 'hidden'} `}>
                   <p className="text-start mt-5 font-roboto">
                     {content}
                   </p>
