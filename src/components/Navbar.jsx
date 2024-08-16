@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const changeBackground = () => {
     if (window.scrollY >= 80) {
-      setNavbarBackground('bg-white shadow-md');
+      setNavbarBackground('bg-white shadow-md backdrop-blur-md bg-opacity-50');
     } else {
       setNavbarBackground('bg-transparent');
     }
