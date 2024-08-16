@@ -51,7 +51,7 @@ return (
                 <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
                 Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
                 </h2>
-                <p className="mt-2 text-slate-600 text-justify sm:text-xl">
+                <p className="mt-2 text-slate-600 text-start sm:text-xl">
                 Karena gizi adalah zat makanan pokok yang diperlukan bagi pertumbuhan dan kesehatan tubuh. 
                 Gizi seimbang adalah susunan makanan sehari-hari yang mengandung zat gizi dalam jenis dan 
                 jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin, umur dan status kesehatan. 
@@ -70,7 +70,7 @@ return (
             </div>
         </div>
 
-        <div className="p-6 py-20 w-full flex justify-center ">
+        <div className="p-6 py-20 w-full flex justify-center backdrop-blur-lg">
         {/* Kontainer untuk kedua halaman */}
           <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
             
