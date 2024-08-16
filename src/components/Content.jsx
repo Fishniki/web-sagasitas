@@ -48,8 +48,8 @@ return (
                 />
             </div>
 
-            <div className="lg:w-1/2 lg:max-w-[30%]">
-                <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
+            <div className="lg:w-1/2 lg:max-w-96">
+                <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
                 Mengapa sehat <span className="text-sky-500">bergizi</span> sangatlah penting?
                 </h2>
                 <p className="mt-2 text-slate-600 text-start sm:text-xl">
@@ -76,7 +76,7 @@ return (
           <div id="pembahasan" className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
             
             {/* page1 */}
-            <div className="p-10 rounded-md border shadow-lg  bg-sky-400 bg-opacity-5 flex flex-col items-center">
+            <div className="p-10 rounded-md border shadow-lg  bg-sky-400 bg-opacity-5">
               <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
                 Empat pillar <span className="text-sky-500">gizi</span> seimbang
               </h2>
