@@ -1,3 +1,4 @@
+import Conkas from "../components/conkas"
 import Content from "../components/Content"
 import Herro from "../components/Herro"
 import Navbar from "../components/Navbar"
@@ -10,6 +11,7 @@ const Home = () => {
       <Herro/>
       <Type/>
       <Content/>
+      <Conkas/>
     </div>
   )
 }
