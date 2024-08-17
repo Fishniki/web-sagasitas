@@ -26,8 +26,8 @@ function Conkas() {
       >
         {/* kasus1 */}
         <div className="relative w-full h-[50vh] md:h-screen">
-            <img src={Stunting} className="object-cover w-full h-full" />
-            <div className="absolute top-0 left-0  flex flex-col p-10 justify-start items-center w-full h-full px-5 md:px-20">
+            <img src={Stunting} className="object-cover w-full h-[50vh] md:h-full" />
+            <div className={`absolute top-0 left-0 ${isOpen1 ? 'items-center justify-start' : 'justify-center items-start'} flex flex-col p-10  w-full h-full px-5 md:px-20 transition-all duration-500`}>
                 <h1 className="text-3xl md:text-5xl lg:text-7xl font-newamsterdam text-sky-400">
                 Stunting di Indonesia
                 </h1>
@@ -73,15 +73,17 @@ function Conkas() {
                 <div className={`absolute top-0 bottom-0 flex w-full justify-end items-center h-auto  ${isOpen2 ? 'right-0' : ' -right-[1000px]'} transition-all duration-500`}>
                     {isOpen2 && (
                     <div className="max-w-60 h-40 md:mr-20 mr-5  md:h-80 z-50 md:max-w-[700px] max-h-[80vh] text-start mb-5 font-roboto p-5 bg-sky-500 bg-opacity-15 rounded-md overflow-y-auto">
-                        Stunting merujuk pada anak dengan tinggi badan terlalu rendah untuk usianya, wasting merujuk pada anak yang terlalu kurus untuk tinggi badannya. Pada tahun 2021 satu dari 12 anak di bawah usia lima tahun di Indonesia mengalami wasting dan satu dari lima mengalami stunting. Terdapat perbedaan angka prevalensi wasting yang besar antar provinsi, dengan prevalensi wasting sebesar 11,9% di Provinsi Maluku dan 2,8% di Provinsi Bali. Stunting dan wasting adalah akibat dari gizi yang kurang optimal sejak dari dalam kandungan, asupan gizi yang kurang pada anak usia dini, dan/atau penyakit infeksi serta penyakit lainnya. Kedua bentuk kekurangan gizi ini memiliki dampak buruk dan mengancam kesehatan, kehidupan, dan perkembangan jangka panjang pada bayi dan anak di seluruh Indonesia.
+                        Gondongan adalah penyakit menular yang disebabkan oleh virus gondongan. Penyakit ini ditandai dengan pembengkakan kelenjar parotis, yang terletak di bawah telinga dan di depan rahang.
+                        Pada tahun 2024, terdapat peningkatan kasus gondongan di Jakarta. Menurut data Dinas Kesehatan DKI Jakarta, terdapat 1.234 kasus gondongan pada Januari-Juni 2024. Angka ini meningkat
+                        dibandingkan dengan tahun 2023, di mana terdapat 876 kasus gondongan pada periode yang sama.
                         <div className="mt-10">
                             <h1 className="font-newamsterdam text-xl">
                             Upaya yang harus dilakukan untuk menurunkan angka stunting di Indonesia
                             </h1>
                         <ul className="list-disc px-5">
-                            <li>Meningkatkan kesadaran publik terkait wasting dan hubungannya dengan stunting</li>
-                            <li>Memberikan layanan kepada semua masyarakat yang mengalami gizi buruk</li>
-                            <li>Memastikan pendanaan yang terencana, memadai, dan selaras</li>
+                            <li>Rutin mencuci tangan dengan sabun dan air mengalir.</li>
+                            <li>Tidak berbagi peralatan mandi atau makan dengan penderita.</li>
+                            <li>Menerapkan etika batuk, seperti menutup mulut dan hidung dengan tisu ketika batuk dan bersin.</li>
                         </ul>
                         </div>
                     </div>
