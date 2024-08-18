@@ -6,32 +6,17 @@ const Conskas = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center">
-      <h2 className='text-xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 text-center'>
-        Contoh kasus kekurangan gizi di Indonesia
+    <div className="min-h-screen bg-white flex flex-col items-center mt-16">
+      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 text-start md:text-center'>
+        Contoh kasus kekurangan <span className="text-sky-400">gizi </span>di Indonesia
       </h2>
-      <div className='w-full flex justify-center space-x-2'>
-        <button 
-          className={`p-5 ${activeCase === 1 ? 'bg-[#0099ff]' : 'bg-gray-300'} rounded-t-full`} 
-          onClick={() => setActiveCase(1)}
-        >
-          1
-        </button>
-        <button 
-          className={`p-5 ${activeCase === 2 ? 'bg-[#FF8343]' : 'bg-gray-300'} rounded-t-full`} 
-          onClick={() => setActiveCase(2)}
-        >
-          2
-        </button>
-      </div>
+       
+
 
       {activeCase === 1 && (
         <div className="w-full">
-            <div className="">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff"  d="M0,128L60,112C120,96,240,64,360,48C480,32,600,32,720,53.3C840,75,960,117,1080,133.3C1200,149,1320,139,1380,133.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-            </div>
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
-            <div className="flex-1 max-w-md">
+            <div className="flex-1 max-w-md px-7">
               <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Stunting di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
@@ -62,9 +47,6 @@ const Conskas = () => {
 
       {activeCase === 2 && (
         <div className="w-full">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF8343" d="M0,224L48,186.7C96,149,192,75,288,58.7C384,43,480,85,576,85.3C672,85,768,43,864,58.7C960,75,1056,149,1152,170.7C1248,192,1344,160,1392,144L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-            </div>
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
               <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Gondokan di Indonesia</h2>
@@ -92,6 +74,23 @@ const Conskas = () => {
           </div>
         </div>
       )}
+
+        <div className='w-full flex justify-center space-x-2'>
+                <button 
+                    className={`p-5 ${activeCase === 1 ? 'bg-[#0099ff]' : 'bg-gray-300'} rounded-full aspect-square flex items-center justify-center text-white`} 
+                    onClick={() => setActiveCase(1)}
+                    style={{ width: '3rem', height: '3rem' }} // Mengatur ukuran responsif menggunakan rem
+                >
+                    1
+                </button>
+                <button 
+                    className={`p-5 ${activeCase === 2 ? 'bg-[#FF8343]' : 'bg-gray-300'} rounded-full aspect-square flex items-center justify-center text-white`} 
+                    onClick={() => setActiveCase(2)}
+                    style={{ width: '3rem', height: '3rem' }} // Mengatur ukuran responsif menggunakan rem
+                >
+                    2
+                </button>
+        </div>
     </div>
   );
 }
