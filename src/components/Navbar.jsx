@@ -32,7 +32,7 @@ const Navbar = () => {
           </h1>
 
         </div>
-        <div className="md:flex hidden items-center">
+        <div className="md:flex hidden items-center font-signika">
           <ul className="flex space-x-3 text-[17px] text-black font-roboto font-bold">
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Home</li>
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tema Sehat</li>
@@ -41,7 +41,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">
-          {button ? <IoMdMenu size={25} color="black" /> : <FaTimes size={25} color="black" />}
+          <IoMdMenu size={25} color="black" />
         </div>
       </div>
 
@@ -49,13 +49,13 @@ const Navbar = () => {
       <div
         className={`${
           button ? "-right-60" : "right-0"
-        } w-60 md:hidden bg-[#184473] fixed top-0 h-screen transition-all duration-300 ease-in-out z-50`}
+        } w-60 md:hidden bg-sky-500 backdrop-blur-md fixed top-0 h-screen transition-all duration-300 ease-in-out z-50`}
       >
         <div className="flex flex-row-reverse items-center justify-between p-4">
           <FaTimes onClick={() => setButton(!button)} color="white" size={25} className="cursor-pointer" />
           <img src={Logo} className="w-11" alt="Logo" />
         </div>
-        <ul className="flex flex-col space-y-3 p-4 text-white">
+        <ul className="flex flex-col font-signika space-y-3 p-4 text-white">
           <li className="p-2 cursor-pointer">Home</li>
           <li className="p-2 cursor-pointer">Tema Sehat</li>
           <li className="p-2 cursor-pointer">Upaya Kesehatan</li>
