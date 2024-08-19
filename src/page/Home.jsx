@@ -14,7 +14,7 @@ const Home = () => {
       <Herro/>
       <Tenka /> 
       <Type/>
-      <Content2/>
+      <Content5/>
       <Conskas2/>
       <MyTeam/>
       <Footer/>
