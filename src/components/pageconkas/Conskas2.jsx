@@ -1,14 +1,14 @@
 import { useState } from "react";
-import Stunting from "../assets/img/1.png";
-import Gondokan from "../assets/img/2.png";
+import Obesitas from "/src/assets/img/obesitas.png";
+import Gondokan from "/src/assets/img/2.png";
 
-const Conskas = () => {
+const Conskas2 = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
 
   return (
     <div className="py-20 bg-white flex flex-col items-center">
       <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 text-start md:text-center'>
-        Contoh kasus kekurangan <span className="text-sky-400">gizi </span>di Indonesia
+        Contoh kasus kesehatan <span className="text-sky-400">fisik </span>di Indonesia
       </h2>
        
 
@@ -17,29 +17,25 @@ const Conskas = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Stunting di Indonesia</h2>
+              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Obesitas di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
-                  Stunting merujuk pada anak dengan tinggi badan terlalu rendah untuk usianya, wasting merujuk pada anak yang terlalu kurus untuk tinggi badannya.
-                  Pada tahun 2021 satu dari 12 anak di bawah usia lima tahun di Indonesia mengalami wasting dan satu dari lima mengalami stunting. 
-                  Terdapat perbedaan angka prevalensi wasting yang besar antar provinsi, dengan prevalensi wasting sebesar 11,9% di Provinsi Maluku dan 2,8% di Provinsi Bali.
-                  Stunting dan wasting adalah akibat dari gizi yang kurang optimal sejak dari dalam kandungan, asupan gizi yang kurang pada anak usia dini, dan/atau penyakit
-                  infeksi serta penyakit lainnya. Kedua bentuk kekurangan gizi ini memiliki dampak buruk dan mengancam kesehatan, kehidupan, dan perkembangan jangka panjang pada bayi dan anak di seluruh Indonesia.
+                  Di Indonesia, akses yang makin mudah dan biaya yang makin terjangkau atas makanan tidak sehat yang tinggi lemak, gula, dan garam adalah penyebab utama malnutrisi. Riset Kesehatan Dasar tahun 2018 memperkirakan satu dari tiga orang dewasa, satu dari lima anak berusia 5-12 tahun, dan satu dari tujuh remaja berusia 13-18 tahun di Indonesia mengalami kelebihan berat badan atau obesitas.
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                    Upaya yang harus dilakukan untuk menurunkan angka stunting di Indonesia
+                    Upaya yang harus dilakukan untuk mengatasi masalah obsitas
                   </h1>
                   <ul className="list-disc font-roboto text-sm md:text-[15px] px-5">
-                    <li>Meningkatkan kesadaran publik terkait wasting dan hubungannya dengan stunting</li>
-                    <li>Memberikan layanan kepada semua masyarakat yang mengalami gizi buruk</li>
-                    <li>Memastikan pendanaan yang terencana, memadai, dan selaras</li>
+                    <li>Meengadakan event perlombaan lari untuk mendorong masyarakan hidup sehat</li>
+                    <li>Bersosialisasi bahaya mengonsumsi gula berlebihan</li>
+                    <li>Menjaga pola makan agar tetap sehat</li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className="flex-1 max-w-md">
-              <img src={Stunting} className="w-full h-auto object-cover rounded-lg" alt="Stunting"/>
+              <img src={Obesitas} className="w-full h-auto object-cover rounded-lg" alt="Stunting"/>
             </div>
           </div>
         </div>
@@ -49,7 +45,7 @@ const Conskas = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-[#FF8343] mb-4">Gondokan di Indonesia</h2>
+              <h2 className="text-2xl md:text-4xl font-bold text-[#FF8343] mb-4">Serangan jantung koroner di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">
                   Gondongan adalah penyakit menular yang disebabkan oleh virus gondongan. Penyakit ini ditandai dengan pembengkakan kelenjar parotis, yang terletak di bawah telinga dan di depan rahang.
@@ -95,4 +91,4 @@ const Conskas = () => {
   );
 }
 
-export default Conskas;
+export default Conskas2;
