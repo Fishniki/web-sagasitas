@@ -121,7 +121,7 @@ const Content3 = () => {
           {/* page2 */}
           <div data-aos="fade-up-left" className="p-4">
             <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips mencapai <span className="text-sky-500">bergizi</span>
+              Tips mencapai <span className="text-sky-500">Jiwa yang sehat</span>
             </h2>
             <div className="h-96 overflow-y-auto ">
               {[
