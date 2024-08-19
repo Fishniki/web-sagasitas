@@ -29,7 +29,7 @@ const Footer = () => {
 
           {/* Section 2: Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Navbar</h3>
+            <h3 className="text-xl font-semibold mb-4">Navba</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-white hover:text-sky-300">
