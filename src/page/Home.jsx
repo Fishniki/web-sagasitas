@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 import Tenka from "../components/Tenka"
 import Type from "../components/Type"
 import Content2 from "../components/pagecontent/Content2"
+import Footer from "../components/Footer"
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Content2/>
       <Conskas/>
       <MyTeam/>
+      <Footer/>
     </div>
   )
 }
