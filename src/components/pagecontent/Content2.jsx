@@ -8,7 +8,7 @@ import aos from "aos";
 import 'aos/dist/aos.css';
 
 const Content2 = () => {
-  const [visibleSections, setVisibleSections] = useState(Array(4).fill(false));
+  const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
 
   // Content2 for each section
   const sectionContents = [
@@ -16,6 +16,7 @@ const Content2 = () => {
     "Setelah seseorang mengalami obesitas, biasanya juga dapat terkena serangan jantung",
     "Mengonsumsi makanan yang berebihan dapat menyebabkan, kenaikan berat badan dan membuat tubuh mudah lelah",
     "Gaya hidup yang tidak sehat dapat mempengaruhi kesehatan mental, menyebabkan depresi, kecemasan, dan gangguan tidur.",
+    "Kebiasaan seperti merokok, minum minuman keras, dapat menyebabkan terjadinya penyakit  kardiovaskules "
   ];
 
   const sectionTitles = [
@@ -23,6 +24,7 @@ const Content2 = () => {
     "Mudah terkena serangan jantung koroner",
     "Membuat tubuh mudah lelah",
     "Kesehatan mental dan emosional",
+    "Hindari kebiasaan buruk"
   ];
 
   const toggleSection = (index) => {
@@ -167,8 +169,8 @@ const Content2 = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Dampak apabila tidak menjaga{" "}
-            <span className="text-sky-500">fisik</span>
+            Dampak apabila tidak menjaga kesehatan
+            <span className="text-sky-500"> fisik</span>
           </h1>
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">

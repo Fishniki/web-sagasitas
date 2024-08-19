@@ -27,7 +27,7 @@ const Conskas2 = () => {
                     Upaya yang harus dilakukan untuk mengatasi masalah obsitas
                   </h1>
                   <ul className="list-disc font-roboto text-sm md:text-[15px] px-5">
-                    <li>Meengadakan event perlombaan lari untuk mendorong masyarakan hidup sehat</li>
+                    <li>Meengadakan event perlombaan lari untuk mendorong masyarakat rajin berolahraga</li>
                     <li>Bersosialisasi bahaya mengonsumsi gula berlebihan</li>
                     <li>Menjaga pola makan agar tetap sehat</li>
                   </ul>
@@ -48,17 +48,15 @@ const Conskas2 = () => {
               <h2 className="text-2xl md:text-4xl font-bold text-[#FF8343] mb-4">Serangan jantung koroner di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">
-                  Gondongan adalah penyakit menular yang disebabkan oleh virus gondongan. Penyakit ini ditandai dengan pembengkakan kelenjar parotis, yang terletak di bawah telinga dan di depan rahang.
-                  Pada tahun 2024, terdapat peningkatan kasus gondongan di Jakarta. Menurut data Dinas Kesehatan DKI Jakarta, terdapat 1.234 kasus gondongan pada Januari-Juni 2024. Angka ini meningkat
-                  dibandingkan dengan tahun 2023, di mana terdapat 876 kasus gondongan pada periode yang sama.
+                  Penelitian dengan menggunakan data dari Indonesia Family Life Survey (IFLS) 5 pada kelompok usia produktif di Indonesia, yaitu 15-59 tahun, menemukan bahwa prevalensi penyakit jantung coroner sebesar 1.30% dari 24.199 masyarakat yang berusia 15-19 tahun. Dari masyarakat usia produktif tersebut, 40.75% masyarakat mempunyai indeks massa tubuh yang normal, 39.33% masyarakat mempunyai aktivitas fisik yang sedang, 35.41% masyarakat mempunyai kebiasan merokok, dan 11.66% masyarakat mempunyai kebiasaan mengkonsumsi makanan cepat saji.
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                    Upaya yang harus dilakukan untuk mengatasi masalah Gondokan
+                    Upaya yang harus dilakukan untuk mengatasi masalah jantung koroner
                   </h1>
-                  <ul className="list-disc text-sm md:text-xl pl-5">
-                    <li>Rutin mencuci tangan dengan sabun dan air mengalir.</li>
-                    <li>Tidak berbagi peralatan mandi atau makan dengan penderita.</li>
+                  <ul className="list-disc text-sm md:text-base pl-5">
+                    <li>Kampanye gaya hidup sehat</li>
+                    <li>Edukasi bahaya merokok bagi tubuh dan orngan lain.</li>
                     <li>Menerapkan etika batuk, seperti menutup mulut dan hidung dengan tisu ketika batuk dan bersin.</li>
                   </ul>
                 </div>

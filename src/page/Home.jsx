@@ -4,8 +4,8 @@ import Navbar from "../components/Navbar"
 import Tenka from "../components/Tenka"
 import Type from "../components/Type"
 import Footer from "../components/Footer"
-import Content2 from "../components/pagecontent/Content2"
 import Conskas2 from "../components/pageconkas/Conskas2"
+import Content4 from "../components/pagecontent/Content4"
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <Herro/>
       <Tenka /> 
       <Type/>
-      <Content2/>
+      <Content4/>
       <Conskas2/>
       <MyTeam/>
       <Footer/>

@@ -7,7 +7,7 @@ import { FiMinus } from "react-icons/fi";
 import aos from "aos";
 import 'aos/dist/aos.css';
 
-const Content4 = () => {
+const Content = () => {
   const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
 
   // Content for each section
@@ -41,7 +41,7 @@ const Content4 = () => {
     <div className="mt-20 ">
       <div className="relative container px-6 py-20 md:py-40 font-inter max-w-md sm:max-w-xl md:max-w-5xl lg:max-w-full xl:px-64 mx-auto">
         <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
-          Sehat <span className="text-sky-500">Imunisasi</span>
+          Sehat <span className="text-sky-500">Bergizi</span>
         </h3>
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-10">
           <div data-aos="fade-right" className="lg:w-1/2 h-full justify-center flex">
@@ -221,4 +221,4 @@ const Content4 = () => {
   );
 };
 
-export default Content4;
+export default Content;

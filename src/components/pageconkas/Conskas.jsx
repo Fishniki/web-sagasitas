@@ -60,7 +60,7 @@ const Conskas = () => {
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
                     Upaya yang harus dilakukan untuk mengatasi masalah Gondokan
                   </h1>
-                  <ul className="list-disc text-sm md:text-xl pl-5">
+                  <ul className="list-disc text-sm md:text-base pl-5">
                     <li>Rutin mencuci tangan dengan sabun dan air mengalir.</li>
                     <li>Tidak berbagi peralatan mandi atau makan dengan penderita.</li>
                     <li>Menerapkan etika batuk, seperti menutup mulut dan hidung dengan tisu ketika batuk dan bersin.</li>
