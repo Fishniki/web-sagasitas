@@ -7,10 +7,10 @@ import { FiMinus } from "react-icons/fi";
 import aos from "aos";
 import 'aos/dist/aos.css';
 
-const Content = () => {
+const Content3 = () => {
   const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
 
-  // Content for each section
+  // Content3 for each section
   const sectionContents = [
     "Tubuh yang tidak mendapatkan asupan nutrisi yang cukup akan lebih rentan terhadap infeksi dan penyakit. Sistem kekebalan tubuh memerlukan nutrisi yang tepat untuk berfungsi secara optimal.",
     "Pada anak-anak dan remaja, kekurangan nutrisi dapat menghambat pertumbuhan fisik dan perkembangan mental. Ini bisa berakibat pada tinggi badan yang tidak optimal, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
@@ -41,7 +41,7 @@ const Content = () => {
     <div className="mt-20 ">
       <div className="relative container px-6 py-20 md:py-40 font-inter max-w-md sm:max-w-xl md:max-w-5xl lg:max-w-full xl:px-64 mx-auto">
         <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
-          Sehat <span className="text-sky-500">Bergizi</span>
+          Sehat <span className="text-sky-500">Jiwa</span>
         </h3>
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-10">
           <div data-aos="fade-right" className="lg:w-1/2 h-full justify-center flex">
@@ -49,15 +49,13 @@ const Content = () => {
           </div>
           <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">bergizi</span>{" "}
+              Mengapa sehat <span className="text-sky-500">Jiwa</span>{" "}
               sangatlah penting?
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
-              Karena gizi adalah zat makanan pokok yang diperlukan bagi
-              pertumbuhan dan kesehatan tubuh. Gizi seimbang adalah susunan
-              makanan sehari-hari yang mengandung zat gizi dalam jenis dan
-              jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin,
-              umur dan status kesehatan.
+            Karena jiwa merupakan bagian integral dari kesehatan bila jiwa kurang sehat, maka kualitas hidup akan berkurang. Kesehatan ini merupakan sesuatu 
+            yang dibutuhkan oleh semua orang, yaitu perasaan sehat, bahagia, dan semangat mengatasi tantangan hidup.
+             keluarga dan orang lain. Oleh karena itu deteksi sedini mungkin lebih penting daripada mengobati.
             </p>
             <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">
               <a
@@ -97,20 +95,25 @@ const Content = () => {
           {/* page1 */}
           <div data-aos="fade-up-right" className="p-10 w-full  ">
             <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Empat pillar <span className="text-sky-500">gizi</span> seimbang
+              Mengenal Ciri-ciri <span className="text-sky-500">Berjiwa</span> Sehat
             </h2>
             <div>
               <ul className="max-w-[500px] space-y-2 font-roboto text-[15px] md:text-xl list-decimal">
                 <li>
-                  Mengonsumsi anekaragam pangan dengan proporsi makanan yang
-                  seimbang (karbohidrat, lemak, protein, mineral dan vitamin)
+                Merasa senang terhadap dirinya,
+                Mampu menghadapi situasi sulit,
+                Puas dengan kehidupannya sehari-hari
                 </li>
-                <li>Membiasakan perilaku hidup bersih</li>
-                <li>Melakukan aktivitas fisik yang teratur</li>
-                <li>
-                  Memantau Berat Badan (BB) secara teratur untuk mempertahankan
-                  berat badan normal
-                </li>
+                <li>Nyaman berhubungan dengan orang lain,
+
+                Mampu mencintai orang lain,
+                Mempunyai hubungan pribadi yang tetap</li>
+                <li>Mampu memenuhi tuntutan hidup,
+
+                Menetapkan tujuan hidup yang realistis,
+                Mampu mengambil keputusan,
+                Menerima tanggung jawab</li>
+               
               </ul>
             </div>
           </div>
@@ -118,7 +121,7 @@ const Content = () => {
           {/* page2 */}
           <div data-aos="fade-up-left" className="p-4">
             <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips hidup sehat <span className="text-sky-500">bergizi</span>
+              Tips mencapai <span className="text-sky-500">bergizi</span>
             </h2>
             <div className="h-96 overflow-y-auto ">
               {[
@@ -221,4 +224,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Content3;

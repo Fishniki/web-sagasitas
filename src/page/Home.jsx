@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 import Tenka from "../components/Tenka"
 import Type from "../components/Type"
 import Content2 from "../components/pagecontent/Content2"
+import Content3 from "../components/pagecontent/Content3"
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <Herro/>
       <Tenka /> 
       <Type/>
-      <Content2/>
+      <Content3/>
       <Conskas/>
       <MyTeam/>
     </div>
