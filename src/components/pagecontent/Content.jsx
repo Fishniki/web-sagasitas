@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Food from "../assets/img/food.png";
-import Konten from "../assets/img/conten.png";
+import Food from "/src/assets/img/food.png";
+import Konten from "/src/assets/img/conten.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
