@@ -16,10 +16,10 @@ const MyTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
-              Antonio Roberto
+              Aldi Kurniawan
             </h4>
             <span className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">
-              Founder
+              Designer
             </span>
           </div>
           <div className="block group md:col-span-2 lg:col-span-1">
@@ -31,10 +31,10 @@ const MyTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
-              Patricia Angely
+              Niki Ahmad Hamdani
             </h4>
             <span className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">
-              Co-Founder
+              Programmer
             </span>
           </div>
           <div className="block group md:col-span-2 lg:col-span-1">
@@ -47,10 +47,10 @@ const MyTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
-              Jerom Bell
+              Muhammad Irfan Maulana
             </h4>
             <span className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">
-              Chairman
+              Programmer
             </span>
           </div>
           <div className="block group md:col-span-2 lg:col-span-1 md:col-start-2 lg:col-start-4">
@@ -62,10 +62,10 @@ const MyTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
-              Yasmine Tano
+              Evan Destian Saputra
             </h4>
             <span className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">
-              CEO
+              Data Analys
             </span>
           </div>
           <div className="block group min-[500px]:col-span-2 mx-auto md:col-span-2 lg:col-span-1">
@@ -77,10 +77,10 @@ const MyTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-2 capitalize text-center transition-all duration-500 group-hover:text-indigo-600">
-              Martin Darbys
+              Muhamma Lintang Andiyan
             </h4>
             <span className="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">
-              Product Manager
+              Design
             </span>
           </div>
         </div>
