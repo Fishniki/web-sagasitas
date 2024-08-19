@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Obesitas from "/src/assets/img/obesitas.png";
-import Gondokan from "/src/assets/img/2.png";
+import Jantung from "/src/assets/img/jantung.png";
 
 const Conskas2 = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
@@ -65,7 +65,7 @@ const Conskas2 = () => {
               </div>
             </div>
             <div className="flex-1 max-w-md">
-              <img src={Gondokan} className="md:w-full md:h-auto w-60 object-cover rounded-lg" alt="Gondokan"/>
+              <img src={Jantung} className="md:w-full md:h-auto w-60 object-cover rounded-lg" alt="Gondokan"/>
             </div>
           </div>
         </div>
