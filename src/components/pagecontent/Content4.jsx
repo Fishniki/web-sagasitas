@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Food from "/src/assets/img/food.png";
-import Konten from "/src/assets/img/conten.png";
+import Imunisasi from "/src/assets/img/sehati.png";
+import Imunisasi2 from "/src/assets/img/sehati2.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
@@ -48,7 +48,7 @@ const Content4 = () => {
             data-aos="fade-right"
             className="lg:w-1/2 h-full justify-center flex"
           >
-            <img src={Food} alt="Sehat Fisik" className="w-72 lg:w-96" />
+            <img src={Imunisasi} alt="Sehat Fisik" className="w-72 lg:w-96" />
           </div>
           <div
             data-aos="fade-left"
@@ -185,7 +185,7 @@ const Content4 = () => {
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">
             <img
-              src={Konten}
+              src={Imunisasi2}
               alt="image"
               data-aos="zoom-out-left"
               className="md:w-[50%] w-full h-auto"

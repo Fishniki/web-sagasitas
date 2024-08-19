@@ -1,30 +1,28 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Food from "/src/assets/img/food.png";
-import Konten from "/src/assets/img/conten.png";
+import Food from "/src/assets/img/sehatj2.png";
+import sehatj3 from "/src/assets/img/sehatj3.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
 import aos from "aos";
 import 'aos/dist/aos.css';
 
-const Content = () => {
+const Content3 = () => {
   const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
 
-  // Content for each section
+  // Content3 for each section
   const sectionContents = [
-    "Tubuh yang tidak mendapatkan asupan nutrisi yang cukup akan lebih rentan terhadap infeksi dan penyakit. Sistem kekebalan tubuh memerlukan nutrisi yang tepat untuk berfungsi secara optimal.",
-    "Pada anak-anak dan remaja, kekurangan nutrisi dapat menghambat pertumbuhan fisik dan perkembangan mental. Ini bisa berakibat pada tinggi badan yang tidak optimal, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
-    "Tanpa nutrisi yang cukup, tubuh tidak memiliki bahan bakar yang diperlukan untuk menghasilkan energi. Ini bisa menyebabkan kelelahan kronis, kurangnya konsentrasi, dan produktivitas yang menurun.",
-    "Kekurangan nutrisi tertentu, seperti vitamin B, asam lemak omega-3, dan mineral, dapat berkontribusi pada masalah kesehatan mental seperti depresi, kecemasan, dan gangguan suasana hati.",
-    "Tidak mengonsumsi makanan bergizi dapat menyebabkan masalah berat badan, baik kelebihan berat badan maupun kekurangan berat badan. Diet yang tidak seimbang bisa menyebabkan penumpukan lemak yang berlebihan atau, sebaliknya, penurunan berat badan yang tidak sehat.",
+    "penyebab stres secara umum adalah situasi tegang di rumah, seperti adanya kekerasan di dalam rumah tangga, perpisahan orang tua, atau kematian orang terdekat. Situasi sekolah juga menjadi penyebab—misalnya, harus berkenalan dengan teman baru atau melalui suatu ujian bisa membuat anak merasa takut  .",
+    "Pada nyeri kepala, kehilangan kesadaran dalam beberapa waktu, telinga berdenging, lebih sensitif pada cahaya, pandangan kabur, hingga koma. Cedera kepala merupakan adanya benturan dari luar yang dapat mengakibatkan gangguan fungsi otak, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
+    "Stres dan cemas Berkurangnya kemampuan untuk mengingat dan berkonsentrasi. Sulit menghindari pikiran mengganggu yang berkaitan dengan kejadian traumatis. Terus-menerus teringat kejadian traumatis tersebut tanpa bisa dikendalikan. Merasa hilang arah dan disorientasi.",    
+    "karena kehilangan kontak sosial sosial dan penghasilan. Efek berbahayanya, terutama dalam jangka panjang, adalah bisa sampai pada kematian karena bunuh diri, terutama bagi mereka yang tidak mendapatkan dukungan sosial.",
   ];
 
   const sectionTitles = [
-    "Penurunan Sistem Imun",
-    "Pertumbuhan Terhambat",
-    "Kelelahan dan Penurunan Energi",
-    "Gangguan Kesehatan Mental",
-    "Masalah Berat Badan",
+    "Stres berat dalam jangka waktu yang lama",
+    "Cedera pada kepala",
+    "Memiliki Trauma berat",
+    "Kehilangan pekerjaan",
   ];
 
   const toggleSection = (index) => {
@@ -41,7 +39,7 @@ const Content = () => {
     <div className="mt-20 ">
       <div className="relative container px-6 py-20 md:py-40 font-inter max-w-md sm:max-w-xl md:max-w-5xl lg:max-w-full xl:px-64 mx-auto">
         <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
-          Sehat <span className="text-sky-500">Bergizi</span>
+          Sehat <span className="text-sky-500">Jiwa</span>
         </h3>
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-10">
           <div data-aos="fade-right" className="lg:w-1/2 h-full justify-center flex">
@@ -49,15 +47,13 @@ const Content = () => {
           </div>
           <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">bergizi</span>{" "}
+              Mengapa sehat <span className="text-sky-500">Jiwa</span>{" "}
               sangatlah penting?
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
-              Karena gizi adalah zat makanan pokok yang diperlukan bagi
-              pertumbuhan dan kesehatan tubuh. Gizi seimbang adalah susunan
-              makanan sehari-hari yang mengandung zat gizi dalam jenis dan
-              jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin,
-              umur dan status kesehatan.
+            Karena jiwa merupakan bagian integral dari kesehatan bila jiwa kurang sehat, maka kualitas hidup akan berkurang. Kesehatan ini merupakan sesuatu 
+            yang dibutuhkan oleh semua orang, yaitu perasaan sehat, bahagia, dan semangat mengatasi tantangan hidup.
+             keluarga dan orang lain. Oleh karena itu deteksi sedini mungkin lebih penting daripada mengobati.
             </p>
             <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">
               <a
@@ -97,20 +93,17 @@ const Content = () => {
           {/* page1 */}
           <div data-aos="fade-up-right" className="p-10 w-full  ">
             <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Empat pillar <span className="text-sky-500">gizi</span> seimbang
+              Ciri-ciri ganguan kesehatan <span className="text-sky-500">jiwa</span>
             </h2>
             <div>
               <ul className="max-w-[500px] space-y-2 font-roboto text-[15px] md:text-xl list-decimal">
                 <li>
-                  Mengonsumsi anekaragam pangan dengan proporsi makanan yang
-                  seimbang (karbohidrat, lemak, protein, mineral dan vitamin)
+                  Merasa sedih sepanjang waktu.
                 </li>
-                <li>Membiasakan perilaku hidup bersih</li>
-                <li>Melakukan aktivitas fisik yang teratur</li>
-                <li>
-                  Memantau Berat Badan (BB) secara teratur untuk mempertahankan
-                  berat badan normal
-                </li>
+                <li>Bingung atau tidak mampu berkonsentrasi.</li>
+                <li>Mampu memenuhi tuntutan hidup</li>
+                <li>Ketakutan, kekhawatiran yang berlebihan, atau perasaan bersalah yang ekstrem</li>
+                <li>Menarik diri untuk berhubungan dengan teman atau melakukan aktivitas.</li>
               </ul>
             </div>
           </div>
@@ -118,29 +111,29 @@ const Content = () => {
           {/* page2 */}
           <div data-aos="fade-up-left" className="p-4">
             <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips hidup sehat <span className="text-sky-500">bergizi</span>
+              Tips mencapai <span className="text-sky-500">Jiwa</span> yang sehat
             </h2>
             <div className="h-96 overflow-y-auto ">
               {[
                 {
-                  title: "Gunakan makanan yang bernutrisi dan bergizi",
+                  title: "Connect",
                   items: [
-                    "Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya",
-                    "Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin",
+                    "Hidup terasa lebih berwarna ketika kita berinteraksi dengan lingkungan sekitar. Saling menyapa, berbagi cerita, berbagi rasa dan buah pikiran membuat hidup tidak terasa sepi.",
+                    "Seringkali pikiran dan emosi yang negatif justru tumbuh subur saat orang hanya sibuk bicara dengan hari dan diri sendiri. Tak mengherankan dari kesendirian itulah mulai berkembang masalah yang lebih serius, seperti ilusi sampai halusinasi.",
                   ],
                 },
                 {
-                  title: "Mengolah maknan sesuai dengan kebutuhan tubuh",
+                  title: "Be active",
                   items: [
-                    "Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh",
-                    "Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan",
+                    "Bangkit, dan biarkan tubuh bergerak. Berjalan, berlari, bersepeda, olahraga permainan, berkebun atau kegiatan apa pun yang membuat tubuh kita bergerak.",
+                    "Saat kita aktif, ada aliran emosi yang positif, apalagi bila itu dilakukan dengan senang hati.",
                   ],
                 },
                 {
-                  title: "Hindari makanan yang mengandungg 3P, dan kandungan yang berlebihan",
+                  title: "Take notice",
                   items: [
-                    "Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan",
-                    "Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin",
+                    "Bila hal itu terus terjadi, bisa jadi gejala depresi mulai berkembang dalam diri. Cobalah menilai kehidupan lebih bermakna dari hal-hal yang kecil dan tidak biasa. Sensitiflah terhadap hal-hal yang indah.",
+                    "Kurangi kebiasaan berujar, “Ah, itu biasa saja.” Jadikan hal yang sangat biasa menjadi luar biasa. Maka saat itulah kita merasakan jiwa yang sangat positif.",
                   ],
                 },
               ].map((section, index) => (
@@ -176,13 +169,13 @@ const Content = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Dampak apabila tidak mengonsumsi makanan{" "}
-            <span className="text-sky-500">bergizi</span>
+            Penyebab gangguan kesehatan 
+            <span className="text-sky-500"> jiwa</span>
           </h1>
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">
             <img
-              src={Konten}
+              src={sehatj3}
               alt="image"
               data-aos="zoom-out-left"
               className="md:w-[50%] w-full h-auto"
@@ -221,4 +214,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Content3;

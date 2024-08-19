@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <div className="md:flex hidden items-center font-signika">
           <ul className="flex space-x-3 text-[17px] text-black font-roboto font-bold">
-            <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Home</li>
+            <a href="#beranda"><li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Beranda</li></a>
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tema Sehat</li>
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Upaya Kesehatan</li>
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tentang Kami</li>

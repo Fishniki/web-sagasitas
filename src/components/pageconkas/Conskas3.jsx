@@ -1,14 +1,14 @@
 import { useState } from "react";
-import Stunting from "/src/assets/img/1.png";
+import Gangguan from "/src/assets/img/sehatj.png";
 import Gondokan from "/src/assets/img/2.png";
 
-const Conskas = () => {
+const Conskas3 = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
 
   return (
     <div className="py-20 bg-white flex flex-col items-center">
       <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 text-start md:text-center'>
-        Contoh kasus kekurangan <span className="text-sky-400">gizi </span>di Indonesia
+        Contoh kasus gangguan kesehatan <span className="text-sky-400">jiwa</span>
       </h2>
        
 
@@ -17,29 +17,24 @@ const Conskas = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Stunting di Indonesia</h2>
+              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Gangguan kesehatan mental menyebabkan kematian</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
-                  Stunting merujuk pada anak dengan tinggi badan terlalu rendah untuk usianya, wasting merujuk pada anak yang terlalu kurus untuk tinggi badannya.
-                  Pada tahun 2021 satu dari 12 anak di bawah usia lima tahun di Indonesia mengalami wasting dan satu dari lima mengalami stunting. 
-                  Terdapat perbedaan angka prevalensi wasting yang besar antar provinsi, dengan prevalensi wasting sebesar 11,9% di Provinsi Maluku dan 2,8% di Provinsi Bali.
-                  Stunting dan wasting adalah akibat dari gizi yang kurang optimal sejak dari dalam kandungan, asupan gizi yang kurang pada anak usia dini, dan/atau penyakit
-                  infeksi serta penyakit lainnya. Kedua bentuk kekurangan gizi ini memiliki dampak buruk dan mengancam kesehatan, kehidupan, dan perkembangan jangka panjang pada bayi dan anak di seluruh Indonesia.
+                Mahasiswa Universitas Gadjah Mada (UGM) meninggal bunuh diri di salah satu Hotel di Yogyakarta, pada Sabtu (8/10/2022). Keputusan bunuh diri diduga karena masalah psikologi yang dialami korban.
+                Hal itu dibenarkan oleh aparat kepolisian merujuk pada surat keterangan dokter yang ditemukan di tas korban di tempat kejadian perkara (TKP), Polisi mengatakan, surat yang ditemukan di tas korban adalah berupa hasil pemeriksaan psikologi dari rumah sakit yang menunjukkan gangguan psikologis
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                    Upaya yang harus dilakukan untuk menurunkan angka stunting di Indonesia
+                   
                   </h1>
                   <ul className="list-disc font-roboto text-sm md:text-[15px] px-5">
-                    <li>Meningkatkan kesadaran publik terkait wasting dan hubungannya dengan stunting</li>
-                    <li>Memberikan layanan kepada semua masyarakat yang mengalami gizi buruk</li>
-                    <li>Memastikan pendanaan yang terencana, memadai, dan selaras</li>
+                   
                   </ul>
                 </div>
               </div>
             </div>
             <div className="flex-1 max-w-md">
-              <img src={Stunting} className="w-full h-auto object-cover rounded-lg" alt="Stunting"/>
+              <img src={Gangguan} className="w-full h-auto object-cover rounded-lg" alt="Gangguan"/>
             </div>
           </div>
         </div>
@@ -95,4 +90,4 @@ const Conskas = () => {
   );
 }
 
-export default Conskas;
+export default Conskas3;

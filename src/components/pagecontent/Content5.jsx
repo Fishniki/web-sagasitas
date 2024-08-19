@@ -1,30 +1,30 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Food from "/src/assets/img/food.png";
-import Konten from "/src/assets/img/conten.png";
+import Sehatl from "/src/assets/img/sehatl.png";
+import Sehatl2 from "/src/assets/img/sehatl2.png";
 import { MdAdd } from "react-icons/md";
 import { useState } from "react";
 import { FiMinus } from "react-icons/fi";
 import aos from "aos";
 import 'aos/dist/aos.css';
 
-const Content = () => {
+const Content5 = () => {
   const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
 
   // Content for each section
   const sectionContents = [
-    "Tubuh yang tidak mendapatkan asupan nutrisi yang cukup akan lebih rentan terhadap infeksi dan penyakit. Sistem kekebalan tubuh memerlukan nutrisi yang tepat untuk berfungsi secara optimal.",
-    "Pada anak-anak dan remaja, kekurangan nutrisi dapat menghambat pertumbuhan fisik dan perkembangan mental. Ini bisa berakibat pada tinggi badan yang tidak optimal, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
-    "Tanpa nutrisi yang cukup, tubuh tidak memiliki bahan bakar yang diperlukan untuk menghasilkan energi. Ini bisa menyebabkan kelelahan kronis, kurangnya konsentrasi, dan produktivitas yang menurun.",
-    "Kekurangan nutrisi tertentu, seperti vitamin B, asam lemak omega-3, dan mineral, dapat berkontribusi pada masalah kesehatan mental seperti depresi, kecemasan, dan gangguan suasana hati.",
-    "Tidak mengonsumsi makanan bergizi dapat menyebabkan masalah berat badan, baik kelebihan berat badan maupun kekurangan berat badan. Diet yang tidak seimbang bisa menyebabkan penumpukan lemak yang berlebihan atau, sebaliknya, penurunan berat badan yang tidak sehat.",
+    "Lingkungan yang kotor dapat menjadi sarang nyamuk dan berbagai bakteri. Ada beberapa penyakit akibat lingkungan kotor, seperti demam berdarah, hepatitis, diare, tifus.",
+    "Keadaan lingkungan sekitar juga memiliki dampak terhadap kesehatan mental. Lingkungan yang kotor ternyata bisa menyebabkan suasana hati jelek dan kesehatan mental pun dapat menurun.",
+    "Tinggal di kawasan yang kumuh dan kotor tentu saja tidak akan merasa nyaman untuk berlama-lama. Bahkan, melihat lingkungan yang berantakan saja, kita mungkin sudah malas untuk mengunjunginya.",
+    "Lingkungan yang tidak sehat bisa Menyebabkan penyakit pernapasan, penyakit air, gangguan sistem saraf, penyakit jantung, dan masalah kulit.",
+    "Lingkungan tidak sehat juga bisa merusak habitat, mengurangi keanekaragaman hayati, dan menyebabkan perubahan iklim serta kerusakan ekosistem laut.",
   ];
 
   const sectionTitles = [
-    "Penurunan Sistem Imun",
-    "Pertumbuhan Terhambat",
-    "Kelelahan dan Penurunan Energi",
-    "Gangguan Kesehatan Mental",
-    "Masalah Berat Badan",
+    "Sumber Penyakit",
+    "Mengurangi Kesehatan Mental",
+    "Kenyamanan untuk Tinggal Berkurang",
+    "Kesehatan Manusia",
+    "Ekosistem",
   ];
 
   const toggleSection = (index) => {
@@ -41,23 +41,20 @@ const Content = () => {
     <div className="mt-20 ">
       <div className="relative container px-6 py-20 md:py-40 font-inter max-w-md sm:max-w-xl md:max-w-5xl lg:max-w-full xl:px-64 mx-auto">
         <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
-          Sehat <span className="text-sky-500">Bergizi</span>
+          Sehat <span className="text-sky-500">Lingkungan</span>
         </h3>
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-10">
           <div data-aos="fade-right" className="lg:w-1/2 h-full justify-center flex">
-            <img src={Food} alt="Sehat Fisik" className="w-72 lg:w-96" />
+            <img src={Sehatl} alt="Sehat Fisik" className="w-72 lg:w-96" />
           </div>
           <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">bergizi</span>{" "}
+              Mengapa sehat <span className="text-sky-500">lingkungan</span>{" "}
               sangatlah penting?
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
-              Karena gizi adalah zat makanan pokok yang diperlukan bagi
-              pertumbuhan dan kesehatan tubuh. Gizi seimbang adalah susunan
-              makanan sehari-hari yang mengandung zat gizi dalam jenis dan
-              jumlah yang sesuai dengan kebutuhan tubuh yaitu jenis kelamin,
-              umur dan status kesehatan.
+              Lingkungan sehat merupakan segala sesuatu disekitar yang dapat mempengaruhi perkembangan hidup manusia, baik secara langsung maupun tidak langsung.
+              kesehatan sangat penting bagi kelancaran kehidupan di bumi, karena lingkungan adalah tempat dimana pribadi itu tinggal.
             </p>
             <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">
               <a
@@ -97,20 +94,15 @@ const Content = () => {
           {/* page1 */}
           <div data-aos="fade-up-right" className="p-10 w-full  ">
             <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Empat pillar <span className="text-sky-500">gizi</span> seimbang
+              Ciri-Ciri <span className="text-sky-500">lingkungan</span> yang sehat 
             </h2>
             <div>
               <ul className="max-w-[500px] space-y-2 font-roboto text-[15px] md:text-xl list-decimal">
-                <li>
-                  Mengonsumsi anekaragam pangan dengan proporsi makanan yang
-                  seimbang (karbohidrat, lemak, protein, mineral dan vitamin)
-                </li>
-                <li>Membiasakan perilaku hidup bersih</li>
-                <li>Melakukan aktivitas fisik yang teratur</li>
-                <li>
-                  Memantau Berat Badan (BB) secara teratur untuk mempertahankan
-                  berat badan normal
-                </li>
+                <li>Lingkungan Terlihat Rapi dan Bersih</li>
+                <li>Pengelolaan Limbah Dilakukan dengan Baik</li>
+                <li>Terdapat Fasilitas Pengelolaan Sampah</li>
+                <li>Banyak Tanaman Hijau di Lingkungan Sekitar</li>
+                <li>Tempat Pembuangan Sampah Dapat Ditemukan dengan Mudah</li>
               </ul>
             </div>
           </div>
@@ -118,29 +110,29 @@ const Content = () => {
           {/* page2 */}
           <div data-aos="fade-up-left" className="p-4">
             <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips hidup sehat <span className="text-sky-500">bergizi</span>
+              Tips <span className="text-sky-500">lingkungan</span> terhindar dari penyakit
             </h2>
             <div className="h-96 overflow-y-auto ">
               {[
                 {
-                  title: "Gunakan makanan yang bernutrisi dan bergizi",
+                  title: "Kelola Sampah dengan Baik",
                   items: [
-                    "Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya",
-                    "Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin",
+                    "membuat tempat sampah sesuai jenisnya, sampah organic dan anorganik",
+                    "manfaatkan sampah organic menjadi pupuk kompos",
                   ],
                 },
                 {
-                  title: "Mengolah maknan sesuai dengan kebutuhan tubuh",
+                  title: "Jaga Kebersihan Air",
                   items: [
-                    "Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh",
-                    "Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan",
+                    "Sumber mata air harus dilindungi dari bahan pencemar",
+                    "Pisahkan jarak antara sumber air dengan jamban dan tempat pembuangan sampah minimal 10 meter",
                   ],
                 },
                 {
-                  title: "Hindari makanan yang mengandungg 3P, dan kandungan yang berlebihan",
+                  title: "Ventilasi yang baik",
                   items: [
-                    "Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan",
-                    "Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin",
+                    "Membersihkan udara dari bahan-bahan kimia",
+                    "Mengurangi kelembaban udara di rumah",
                   ],
                 },
               ].map((section, index) => (
@@ -176,13 +168,13 @@ const Content = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Dampak apabila tidak mengonsumsi makanan{" "}
-            <span className="text-sky-500">bergizi</span>
+            Dampak apabila tidak menjaga{" "}
+            <span className="text-sky-500">lingkungan</span>
           </h1>
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">
             <img
-              src={Konten}
+              src={Sehatl2}
               alt="image"
               data-aos="zoom-out-left"
               className="md:w-[50%] w-full h-auto"
@@ -221,4 +213,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Content5;

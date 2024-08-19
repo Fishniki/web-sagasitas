@@ -2,7 +2,7 @@ import Hero from "../assets/img/heroril.svg";
 
 const Herro = () => {
   return (
-    <div className="relative w-full h-screen"> {/* Adjust mt-20 based on navbar height */}
+    <div id="beranda" className="relative w-full h-screen"> {/* Adjust mt-20 based on navbar height */}
       <div className="w-full h-full">
         <img src={Hero} className="object-cover w-full h-screen" alt="Hero Image" />
         <div className="absolute space-y-2 top-0 lg:ml-20 max-w-[90%] md:max-w-[600px] h-full flex flex-col items-start justify-center px-5 md:px-10">
