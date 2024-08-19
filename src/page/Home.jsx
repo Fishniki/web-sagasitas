@@ -3,6 +3,7 @@ import MyTeam from "../components/Myteam"
 import Navbar from "../components/Navbar"
 import Tenka from "../components/Tenka"
 import Type from "../components/Type"
+import Footer from "../components/Footer"
 import Content2 from "../components/pagecontent/Content2"
 import Conskas2 from "../components/pageconkas/Conskas2"
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Content2/>
       <Conskas2/>
       <MyTeam/>
+      <Footer/>
     </div>
   )
 }
