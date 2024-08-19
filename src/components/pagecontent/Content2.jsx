@@ -8,23 +8,21 @@ import aos from "aos";
 import 'aos/dist/aos.css';
 
 const Content2 = () => {
-  const [visibleSections, setVisibleSections] = useState(Array(5).fill(false));
+  const [visibleSections, setVisibleSections] = useState(Array(4).fill(false));
 
   // Content2 for each section
   const sectionContents = [
-    "Tubuh yang tidak mendapatkan asupan nutrisi yang cukup akan lebih rentan terhadap infeksi dan penyakit. Sistem kekebalan tubuh memerlukan nutrisi yang tepat untuk berfungsi secara optimal.",
-    "Pada anak-anak dan remaja, kekurangan nutrisi dapat menghambat pertumbuhan fisik dan perkembangan mental. Ini bisa berakibat pada tinggi badan yang tidak optimal, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
-    "Tanpa nutrisi yang cukup, tubuh tidak memiliki bahan bakar yang diperlukan untuk menghasilkan energi. Ini bisa menyebabkan kelelahan kronis, kurangnya konsentrasi, dan produktivitas yang menurun.",
-    "Kekurangan nutrisi tertentu, seperti vitamin B, asam lemak omega-3, dan mineral, dapat berkontribusi pada masalah kesehatan mental seperti depresi, kecemasan, dan gangguan suasana hati.",
-    "Tidak mengonsumsi makanan bergizi dapat menyebabkan masalah berat badan, baik kelebihan berat badan maupun kekurangan berat badan. Diet yang tidak seimbang bisa menyebabkan penumpukan lemak yang berlebihan atau, sebaliknya, penurunan berat badan yang tidak sehat.",
+    "Mengonsumsi makanan yang berlebihan dapat menyebabkan tubuh obesitas",
+    "Setelah seseorang mengalami obesitas, biasanya juga dapat terkena serangan jantung",
+    "Mengonsumsi makanan yang berebihan dapat menyebabkan, kenaikan berat badan dan membuat tubuh mudah lelah",
+    "Gaya hidup yang tidak sehat dapat mempengaruhi kesehatan mental, menyebabkan depresi, kecemasan, dan gangguan tidur.",
   ];
 
   const sectionTitles = [
-    "Penurunan Sistem Imun",
-    "Pertumbuhan Terhambat",
-    "Kelelahan dan Penurunan Energi",
-    "Gangguan Kesehatan Mental",
-    "Masalah Berat Badan",
+    "Obesitas",
+    "Mudah terkena serangan jantung koroner",
+    "Membuat tubuh mudah lelah",
+    "Kesehatan mental dan emosional",
   ];
 
   const toggleSection = (index) => {
@@ -169,8 +167,8 @@ const Content2 = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Dampak apabila tidak mengonsumsi makanan{" "}
-            <span className="text-sky-500">bergizi</span>
+            Dampak apabila tidak menjaga{" "}
+            <span className="text-sky-500">fisik</span>
           </h1>
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">
