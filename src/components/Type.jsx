@@ -11,9 +11,9 @@ const Type = ({ onTypeClick }) => {
   });
 
   return (
-    <div id="temasehat" className="relative flex -my-28 sm:my-0 flex-col sm:bg-transparent items-center py-2 lg:py-5 px-2 md:px-10">
-      <h1 className="font-newamsterdam text-2xl md:text-3xl py-2 z-20">Tema sehat</h1>
-      <div className="flex flex-wrap justify-start gap-2 z-20">
+    <div id="temasehat" className="relative flex -my-20 sm:my-0 flex-col sm:bg-transparent items-center py-2 lg:py-5 px-2 md:px-10">
+      <h1 className="font-newamsterdam text-2xl hidden sm:block md:text-3xl py-2 z-20">Tema sehat</h1>
+      <div className="flex flex-wrap justify-center gap-2 z-20">
         <div
           data-aos="fade-up"
           className="w-16 h-16 sm:w-24 sm:h-24 md:w-40 md:h-40 lg:w-52 lg:h-5w-52 bg-white border border-gray-200 flex flex-col items-center justify-center rounded-md transition-colors duration-300 shadow-lg group hover:bg-[#FFB200] cursor-pointer"
