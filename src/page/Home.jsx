@@ -79,7 +79,7 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <div className="overflow-hidden transition-all duration-200">
       <Navbar />
       <Herro />
       <Tenka />

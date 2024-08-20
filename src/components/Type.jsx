@@ -12,8 +12,8 @@ const Type = ({ onTypeClick }) => {
 
   return (
     <div id="temasehat" className="relative flex flex-col sm:bg-transparent items-center py-2 lg:py-5 px-2 md:px-10">
-      <h1 className="font-newamsterdam hidden md:block text-2xl md:text-3xl py-2 z-20">Tema sehat</h1>
-      <div className="grid grid-cols-5 sm:grid-cols-2 lg:grid-cols-3 gap-2 justify-items-center z-20">
+      <h1 className="font-newamsterdam text-2xl md:text-3xl py-2 z-20">Tema sehat</h1>
+      <div className="flex flex-wrap justify-center gap-2 z-20">
         <div
           data-aos="fade-up"
           className="w-16 h-16 sm:w-24 sm:h-24 md:w-40 md:h-40 lg:w-64 lg:h-64 bg-white border border-gray-200 flex flex-col items-center justify-center rounded-md transition-colors duration-300 shadow-lg group hover:bg-[#FFB200] cursor-pointer"
@@ -31,6 +31,7 @@ const Type = ({ onTypeClick }) => {
           <GiArmBandage className="text-xl sm:text-2xl md:text-4xl lg:text-6xl text-[#6EACDA] group-hover:text-white group-hover:animate-bounce" />
           <div className="mt-1 text-[10px] sm:text-sm md:text-xl font-oswald text-center">Sehat Fisik</div>
         </div>
+
         <div
           data-aos="fade-up"
           className="w-16 h-16 sm:w-24 sm:h-24 md:w-40 md:h-40 lg:w-64 lg:h-64 bg-white border border-gray-200 flex flex-col items-center justify-center rounded-md transition-colors duration-300 shadow-lg group hover:bg-[#FFB200] cursor-pointer"
@@ -48,7 +49,6 @@ const Type = ({ onTypeClick }) => {
           <RiMentalHealthFill className="text-xl sm:text-2xl md:text-4xl lg:text-6xl text-[#6EACDA] group-hover:text-white group-hover:animate-bounce" />
           <div className="mt-1 text-[10px] sm:text-sm md:text-xl font-oswald text-center">Sehat Jiwa</div>
         </div>
-
 
         <div
           data-aos="fade-up"
