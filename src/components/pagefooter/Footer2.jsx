@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import Logo from "/src/assets/img/logo.png"
 
 const Footer2 = () => {
@@ -17,20 +17,11 @@ const Footer2 = () => {
             </p>
             <div className="mt-6 flex flex-col">
               <p className="font-semibold font-signika">Hubungi kami</p>
-              <div className="flex space-x-5 mt-2">
-                <a href="#" className="text-white hover:text-sky-300">
-                  <FaFacebookF />
+              <div className="flex items-center space-x-3 mt-2">
+                <FaInstagram />
+                <a href="https://www.instagram.com/savelife_46/?igsh=aDd1dnQ4MTkxaHMx" className="text-white  hover:text-sky-300">
+                   savelife_46
                 </a>
-                <a href="#" className="text-white hover:text-sky-300">
-                  <FaTwitter />
-                </a>
-                <a href="#" className="text-white hover:text-sky-300">
-                  <FaInstagram />
-                </a>
-                <a href="#" className="text-white hover:text-sky-300">
-                  <FaLinkedinIn />
-                </a>
-
               </div>
             </div>
           </div>
