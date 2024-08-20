@@ -49,8 +49,7 @@ const Content = () => {
           </div>
           <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">bergizi</span>{" "}
-              sangatlah penting?
+              Mengapa <span className="text-sky-500">gizi</span> yang sehat sangatlah penting?
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
               Karena gizi adalah zat makanan pokok yang diperlukan bagi

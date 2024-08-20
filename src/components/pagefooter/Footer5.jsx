@@ -7,7 +7,7 @@ const Footer5 = () => {
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Section 1: About SaveLife */}
           <div className="lg:w-1/3">
-            <h2 className="text-3xl font-bold font-signika mb-4 ">Save <span className="text-orange-400">Life</span></h2>
+            <h2 className="text-3xl font-bold font-signika mb-4 ">SaveLife</h2>
             <p className="text-sm font-roboto">
               SaveLife adalah platform yang didedikasikan untuk memberikan informasi tentang kesehatan, nutrisi, dan gaya hidup sehat. Kami berkomitmen untuk membantu Anda mencapai hidup yang lebih sehat dan berkualitas.
             </p>
@@ -33,23 +33,23 @@ const Footer5 = () => {
               <h3 className="text-xl font-semibold mb-4">Konten</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-white hover:text-sky-300">
+                  <a href="#beranda" className="text-white hover:text-sky-300">
                     Beranda
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-sky-300">
+                  <a href="#temasehat" className="text-white hover:text-sky-300">
                     Tema Sehat
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-sky-300">
+                  <a href="#conkas" className="text-white hover:text-sky-300">
                     Kasus
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-sky-300">
-                    Tentang Kami
+                  <a href="#tentangkami" className="text-white hover:text-sky-300">
+                    Tentang kami
                   </a>
                 </li>
               </ul>

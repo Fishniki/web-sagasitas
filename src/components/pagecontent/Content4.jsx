@@ -55,7 +55,7 @@ const Content4 = () => {
             className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left"
           >
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">imunisasi</span>{" "}
+              Mengapa <span className="text-sky-500">imunisasi</span>{" "}
               sangatlah penting?
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
@@ -104,7 +104,7 @@ const Content4 = () => {
           {/* page1 */}
           <div data-aos="fade-up-right" className="p-10 w-full  ">
             <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-            Peran Kesehatan <span className="text-sky-500">Masyarakat</span> dalam imunisasi
+            Peran Kesehatan Masyarakat dalam <span className="text-sky-500">imunisasi</span>
             </h2>
             <div>
               <ul className="max-w-[500px] space-y-2 font-roboto text-[15px] md:text-xl list-decimal">
@@ -120,30 +120,37 @@ const Content4 = () => {
           {/* page2 */}
           <div data-aos="fade-up-left" className="p-4">
             <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips hidup sehat <span className="text-sky-500">bergizi</span>
+              jenis-jenis <span className="text-sky-500"> vaksin serta KIPI </span>
             </h2>
             <div className="h-96 overflow-y-auto ">
               {[
                 {
-                  title: "Gunakan makanan yang bernutrisi dan bergizi",
+                  title: " KIPI yang dapat terjadi pada vaksin hepatitis B",
                   items: [
-                    "Pilih makanan yang seimbang sesuai dengan kebutuhan seperti Nutrisi dan Gizinya",
-                    "Tubuh harus harus mendapatkan makanan yang seimbang seperti karbohidrat, protein, serat dan buah yang mengandung bnayaknya vitamin",
+                    "Nyeri di area suntikan",
+                    "Mudah lelah",
+                    "Demam",
+                    "Kulit gatal-gatal dan kemerahan",
+
                   ],
                 },
                 {
-                  title: "Mengolah maknan sesuai dengan kebutuhan tubuh",
+                  title: "Reaksi KIPI imunisasi polio ",
                   items: [
-                    "Sajikan makanan dalam bentuk yang sesuai dengan kebutuhan tubuh",
-                    "Siapkan makanan sesuai dengan kapasitas makanan yang baik dan menyehatkan",
+                    "Demam",
+                    "Mudah lelah",
+                    "Ruam merah dan gatal-gatal di kulit",
+                    "Hilang nafsu makan",
                   ],
                 },
                 {
                   title:
-                    "Hindari makanan yang mengandungg 3P, dan kandungan yang berlebihan",
+                    "KIPI pada vaksin BCG adalah",
                   items: [
-                    "Makanlah makanan yang tidak mengandung perasa, pewarna dan pengawet buatan",
-                    "Makanan yang mengandung gula, garam dan lemak yang berlebihan dianjurkan untuk dikurangin",
+                    "Ruam merah di area suntikan",
+                    "Demam",
+                    "Sakit ketika buang air kecil",
+                    "Sakit perut",
                   ],
                 },
               ].map((section, index) => (

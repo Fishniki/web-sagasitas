@@ -17,14 +17,14 @@ const Conskas2 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Obesitas di Indonesia</h2>
+              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Kasus obesitas di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
                   Di Indonesia, akses yang makin mudah dan biaya yang makin terjangkau atas makanan tidak sehat yang tinggi lemak, gula, dan garam adalah penyebab utama malnutrisi. Riset Kesehatan Dasar tahun 2018 memperkirakan satu dari tiga orang dewasa, satu dari lima anak berusia 5-12 tahun, dan satu dari tujuh remaja berusia 13-18 tahun di Indonesia mengalami kelebihan berat badan atau obesitas.
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                    Upaya yang harus dilakukan untuk mengatasi masalah obsitas
+                    Upaya yang harus dilakukan untuk mengatasi masalah obesitas
                   </h1>
                   <ul className="list-disc font-roboto text-sm md:text-[15px] px-5">
                     <li>Meengadakan event perlombaan lari untuk mendorong masyarakat rajin berolahraga</li>

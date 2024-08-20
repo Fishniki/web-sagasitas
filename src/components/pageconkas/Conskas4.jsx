@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Stunting from "/src/assets/img/sehati3.png";
-import Gondokan from "/src/assets/img/2.png";
+import Sehat4 from "/src/assets/img/sehati4.png";
+
 
 const Conskas4 = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
@@ -55,18 +56,18 @@ const Conskas4 = () => {
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                    Upaya yang harus dilakukan untuk mengatasi masalah Gondokan
+                    Upaya yang harus dilakukan untuk mengatasi masalah penyakit polio
                   </h1>
                   <ul className="list-disc text-sm md:text-base pl-5">
-                    <li>Rutin mencuci tangan dengan sabun dan air mengalir.</li>
-                    <li>Tidak berbagi peralatan mandi atau makan dengan penderita.</li>
-                    <li>Menerapkan etika batuk, seperti menutup mulut dan hidung dengan tisu ketika batuk dan bersin.</li>
+                    <li>Meningkatkan kesadaran masyarakat tentang pentingnya imunisasi melalui program pendidikan dan sosialisasi</li>
+                    <li>Mengedukasi masyarakat tentang pentingnya menjaga kebersihan lingkungan</li>
+                    <li>Meningkatkan sistem pemantauan dan deteksi dini untuk mengidentifikasi kasus polio atau lumpuh layu akut sedini mungkin dan merespons dengan cepat.</li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className="flex-1 max-w-md">
-              <img src={Gondokan} className="md:w-full md:h-auto w-60 object-cover rounded-lg" alt="Gondokan"/>
+              <img src={Sehat4} className="md:w-full md:h-auto w-60 object-cover rounded-lg" alt="Gondokan"/>
             </div>
           </div>
         </div>
