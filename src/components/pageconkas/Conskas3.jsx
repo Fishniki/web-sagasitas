@@ -7,7 +7,7 @@ const Conskas3 = () => {
 
   return (
     <div id="conkas" className="py-20 bg-white flex flex-col items-center">
-      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 text-start md:text-center'>
+      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 mx-4 text-start md:text-center'>
         Contoh kasus gangguan kesehatan <span className="text-sky-400">jiwa</span>
       </h2>
        
