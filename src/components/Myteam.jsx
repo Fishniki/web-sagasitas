@@ -31,7 +31,7 @@ const MyTeam = () => {
               <a href="https://github.com/Aldi672" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={25} />
               </a>
-              <a href="https://instagram.com/aldi.kurniawan" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/alta.break/?igsh=ZGUzMzM3NWJiOQ%3D%3D" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={25} />
               </a>
             </div>
