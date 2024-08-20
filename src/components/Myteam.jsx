@@ -28,7 +28,7 @@ const MyTeam = () => {
               Aldi Kurniawan
             </h4>
             <div className="w-full px-8 sm:px-20 flex justify-evenly">
-              <a href="https://github.com/aldi-kurniawan" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Aldi672" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={25} />
               </a>
               <a href="https://instagram.com/aldi.kurniawan" target="_blank" rel="noopener noreferrer">
@@ -53,10 +53,10 @@ const MyTeam = () => {
               Niki Ahmad Hamdani
             </h4>
             <div className="w-full px-8 sm:px-20 flex justify-evenly">
-              <a href="https://github.com/niki-hamdani" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Fishniki/" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={25} />
               </a>
-              <a href="https://instagram.com/niki.hamdani" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/fishniki_/?igsh=MWdrY2t3YWM3bmJiOA%3D%3D" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={25} />
               </a>
             </div>
@@ -81,7 +81,7 @@ const MyTeam = () => {
               <a href="https://github.com/muhammad-irfan" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={25} />
               </a>
-              <a href="https://instagram.com/irfan_m" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/_ifnnmll/?igsh=MTRvZzI3ZTdhajZ3aQ%3D%3D" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={25} />
               </a>
             </div>
@@ -103,10 +103,10 @@ const MyTeam = () => {
               Evan Destian Saputra
             </h4>
             <div className="w-full px-8 sm:px-20 flex justify-evenly">
-              <a href="https://github.com/evan-destian" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/vaneedestian" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={25} />
               </a>
-              <a href="https://instagram.com/evan.destian" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/epandstian/?igsh=MTI3NGExa3kzM2o0YQ%3D%3D" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={25} />
               </a>
             </div>
@@ -128,10 +128,10 @@ const MyTeam = () => {
               Muhammad Lintang A.
             </h4>
             <div className="w-full px-8 sm:px-20 flex justify-evenly">
-              <a href="https://github.com/muhammad-lintang" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/lintang34" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={25} />
               </a>
-              <a href="https://instagram.com/muhammad.lintang" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/muh.lintang21/?igsh=dm51NjFmNnZxbnpu" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={25} />
               </a>
             </div>
