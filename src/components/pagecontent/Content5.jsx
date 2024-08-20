@@ -23,8 +23,8 @@ const Content5 = () => {
     "Sumber Penyakit",
     "Mengurangi Kesehatan Mental",
     "Kenyamanan untuk Tinggal Berkurang",
-    "Kesehatan Manusia",
-    "Ekosistem",
+    "Mengancam kesehatan Manusia",
+    "Merusak ekosistem",
   ];
 
   const toggleSection = (index) => {

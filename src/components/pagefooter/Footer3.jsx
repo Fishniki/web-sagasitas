@@ -59,8 +59,8 @@ const Footer3 = () => {
               <h3 className="text-xl font-semibold mb-4">Sumbar informasi</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="https://www.halodoc.com/kesehatan/imunisasi" className="text-white hover:text-sky-300">
-                    halodoc.com
+                  <a href="https://www.emc.id/id/care-plus/gizi-seimbang-untuk-gaya-hidup-yang-sehat" className="text-white hover:text-sky-300">
+                    emc.id
                   </a>
                 </li>
                 <li>
