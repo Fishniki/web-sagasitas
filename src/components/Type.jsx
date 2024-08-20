@@ -12,7 +12,7 @@ const Type = ({ onTypeClick }) => {
 
   return (
     <div className="relative flex flex-col md:my-0 sm:bg-transparent bg-sky-200 bg-opacity-30 -my-24  items-center py-2 lg:py-5 px-2 md:px-10">
-      <h1 className="font-newamsterdam hidden md:block text-2xl md:text-3xl py-2 z-20">Tema Utama</h1>
+      <h1 className="font-newamsterdam hidden md:block text-2xl md:text-3xl py-2 z-20">Tema sehat</h1>
       <div className="grid grid-cols-5 sm:grid-cols-2 lg:grid-cols-3 gap-2 justify-items-center z-20">
         <div
           data-aos="fade-up"
