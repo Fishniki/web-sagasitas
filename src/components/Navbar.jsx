@@ -67,7 +67,7 @@ const Navbar = () => {
             <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tema Sehat</li>
           </a>
           <a href="#timkami">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tim kamu</li>
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tim kami</li>
           </a>
           <a href="#tentangkami">
             <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tentang Kami</li>
