@@ -7,7 +7,7 @@ const Conskas2 = () => {
 
   return (
     <div id="conkas" className="py-20 bg-white flex flex-col items-center">
-      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 mx-4 text-start md:text-center'>
+      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 px-6 text-start md:text-center'>
         Contoh kasus kesehatan <span className="text-sky-400">fisik </span>di Indonesia
       </h2>
        
@@ -17,7 +17,7 @@ const Conskas2 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-xl md:text-2xl font-bold text-sky-400 mb-4">Kasus obesitas di Indonesia</h2>
+              <h2 className="text-xl md:text-2xl font-oswald font-bold text-sky-400 mb-4">Kasus obesitas di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
                   Di Indonesia, akses yang makin mudah dan biaya yang makin terjangkau atas makanan tidak sehat yang tinggi lemak, gula, dan garam adalah penyebab utama malnutrisi. Riset Kesehatan Dasar tahun 2018 memperkirakan satu dari tiga orang dewasa, satu dari lima anak berusia 5-12 tahun, dan satu dari tujuh remaja berusia 13-18 tahun di Indonesia mengalami kelebihan berat badan atau obesitas.
@@ -45,7 +45,7 @@ const Conskas2 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-xl md:text-2xl font-bold text-[#FF8343] mb-4">Serangan jantung koroner di Indonesia</h2>
+              <h2 className="text-xl md:text-2xl font-bold font-oswald text-[#FF8343] mb-4">Serangan jantung koroner di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">
                   Penelitian dengan menggunakan data dari Indonesia Family Life Survey (IFLS) 5 pada kelompok usia produktif di Indonesia, yaitu 15-59 tahun, menemukan bahwa prevalensi penyakit jantung coroner sebesar 1.30% dari 24.199 masyarakat yang berusia 15-19 tahun. Dari masyarakat usia produktif tersebut, 40.75% masyarakat mempunyai indeks massa tubuh yang normal, 39.33% masyarakat mempunyai aktivitas fisik yang sedang, 35.41% masyarakat mempunyai kebiasan merokok, dan 11.66% masyarakat mempunyai kebiasaan mengkonsumsi makanan cepat saji.

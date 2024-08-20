@@ -117,7 +117,7 @@ const Content = () => {
           {/* page2 */}
           <div data-aos="fade-up-left" className="p-4">
             <h2 className="mt-6 text-2xl mb-5 font-semibold text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Tips hidup sehat <span className="text-sky-500">bergizi</span>
+              Tips hidup sehat dan<span className="text-sky-500">bergizi</span>
             </h2>
             <div className="h-96 overflow-y-auto ">
               {[
@@ -175,8 +175,8 @@ const Content = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Dampak apabila tidak mengonsumsi makanan{" "}
-            <span className="text-sky-500">bergizi</span>
+            Dampak apabila tidak mengonsumsi makanan
+            <span className="text-sky-500"> bergizi</span>
           </h1>
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">

@@ -49,11 +49,10 @@ const Content5 = () => {
           </div>
           <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">lingkungan</span>{" "}
-              sangatlah penting?
+              Apa itu sehat <span className="text-sky-500">lingkungan</span>
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
-              Lingkungan sehat merupakan segala sesuatu disekitar yang dapat mempengaruhi perkembangan hidup manusia, baik secara langsung maupun tidak langsung.
+              Karena lingkungan merupakan segala sesuatu disekitar yang dapat mempengaruhi perkembangan hidup manusia, baik secara langsung maupun tidak langsung.
               kesehatan sangat penting bagi kelancaran kehidupan di bumi, karena lingkungan adalah tempat dimana pribadi itu tinggal.
             </p>
             <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">

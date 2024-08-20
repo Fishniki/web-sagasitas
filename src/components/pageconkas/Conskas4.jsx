@@ -8,7 +8,7 @@ const Conskas4 = () => {
 
   return (
     <div id="conkas" className="py-20 bg-white flex flex-col items-center">
-      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 mx-4 text-start md:text-center'>
+      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 px-6 text-start md:text-center'>
         Contoh kasus masalah <span className="text-sky-400">imunisasi </span>di Indonesia
       </h2>
        
@@ -18,7 +18,7 @@ const Conskas4 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Anak-anak yang tidak dapat imunisasi</h2>
+              <h2 className="text-xl md:text-2xl font-oswald font-bold text-sky-400 mb-4">Anak-anak yang tidak dapat imunisasi</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
                   Lebih dari 1,8 juta anak Indonesia tidak mendapat Imunisasi Rutin Lengkap selama 6 tahun terakhir, dari 2018 sampaii 2023. Akibatnya, beragam kasus dan Kejadian Luar Biasa, sperti 
@@ -47,7 +47,7 @@ const Conskas4 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-xl md:text-2xl font-bold text-[#FF8343] mb-4">Tiga anak di Jateng dan Jatim lumpuh layu akibat polio
+              <h2 className="text-xl md:text-2xl font-oswald font-bold text-[#FF8343] mb-4">Tiga anak di Jateng dan Jatim lumpuh layu akibat polio
               </h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">

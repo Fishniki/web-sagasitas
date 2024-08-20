@@ -47,13 +47,13 @@ const Content3 = () => {
           </div>
           <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
             <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Mengapa sehat <span className="text-sky-500">Jiwa</span>{" "}
-              sangatlah penting?
+              Mengapa kita harus memiliki <span className="text-sky-500">Jiwa</span>
+              yang sehat
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
             Karena jiwa merupakan bagian integral dari kesehatan bila jiwa kurang sehat, maka kualitas hidup akan berkurang. Kesehatan ini merupakan sesuatu 
             yang dibutuhkan oleh semua orang, yaitu perasaan sehat, bahagia, dan semangat mengatasi tantangan hidup.
-             keluarga dan orang lain. Oleh karena itu deteksi sedini mungkin lebih penting daripada mengobati.
+            keluarga dan orang lain. Oleh karena itu deteksi sedini mungkin lebih penting daripada mengobati.
             </p>
             <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">
               <a

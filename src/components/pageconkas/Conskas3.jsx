@@ -7,7 +7,7 @@ const Conskas3 = () => {
 
   return (
     <div id="conkas" className="py-20 bg-white flex flex-col items-center">
-      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 mx-4 text-start md:text-center'>
+      <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 px-6 text-start md:text-center'>
         Contoh kasus gangguan kesehatan <span className="text-sky-400">jiwa</span>
       </h2>
        
@@ -17,7 +17,7 @@ const Conskas3 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-xl md:text-2xl font-bold text-sky-400 mb-4">Masalah psikologi penyebab bunuh diri</h2>
+              <h2 className="text-xl md:text-2xl font-oswald font-bold text-sky-400 mb-4">Masalah psikologi penyebab bunuh diri</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
                 Mahasiswa Universitas Gadjah Mada (UGM) meninggal bunuh diri di salah satu Hotel di Yogyakarta, pada Sabtu (8/10/2022). Keputusan bunuh diri diduga karena masalah psikologi yang dialami korban.
@@ -47,7 +47,7 @@ const Conskas3 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-xl md:text-2xl font-bold text-[#FF8343] mb-4">Benturan kepala mengakibatkan kematian</h2>
+              <h2 className="text-xl md:text-2xl font-oswald font-bold text-[#FF8343] mb-4">Benturan kepala mengakibatkan kematian</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">
                   Kejadian trauma kepala di dunia sekitar 811-979 per 100 ribu per tahun. Sedangkan angka kejadian trauma kepala di Indonesia pada tahun 2013 di 33 Provinsi di Indonesia sebesar 8,2% dan insiden kematian akibat trauma kepala sejumlah 100.000. Sayangnya jumlah pasien trauma kepala yang datang ke rumah sakit masih rendah yaitu hanya sekitar 475-643 per 100 ribu orang per tahun. Padahal diperkirakan sekitar 50-60 juta kasus baru trauma kepala di seluruh dunia. Oleh karna itu kesadaran untuk berobat pada pasien trauma kepala masih harus ditingkatkan.
