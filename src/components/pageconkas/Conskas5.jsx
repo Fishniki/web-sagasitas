@@ -6,7 +6,7 @@ const Conskas5 = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
 
   return (
-    <div className="py-20 bg-white flex flex-col items-center">
+    <div id="kasus" className="py-20 bg-white flex flex-col items-center">
       <h2 className='text-2xl sm:text-2xl md:text-4xl font-newamsterdam mb-5 text-start md:text-center'>
         Contoh kasus <span className="text-sky-400">lingkungan </span>yang tidak sehat
       </h2>

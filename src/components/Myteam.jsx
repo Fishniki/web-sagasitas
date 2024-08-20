@@ -1,7 +1,7 @@
 const MyTeam = () => {
   return (
     <section className="">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div id="tentangkami" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h2 className="font-signika text-5xl text-center font-bold text-gray-900">Tim Kami</h2>
         </div>

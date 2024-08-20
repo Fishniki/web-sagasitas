@@ -38,8 +38,12 @@ const Navbar = () => {
             <a href="#temasehat">
               <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tema Sehat</li>
             </a>
+            <a href="#kasus">
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">kasus</li>
+            </a>
+            <a href="#tentangkami">
             <li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tentang Kami</li>
+            </a>
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">
