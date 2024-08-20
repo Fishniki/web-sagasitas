@@ -7,7 +7,7 @@ const Tenka = () => {
         once: true
     })
   return (
-    <div
+    <div id="tentangkami"
       className="w-full h-screen flex items-center justify-center bg-cover bg-center mb-8 px-6 py-10"
       style={{ backgroundImage: `url(${TenkaImage})` }}
     >
