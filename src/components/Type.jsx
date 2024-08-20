@@ -11,7 +11,7 @@ const Type = ({ onTypeClick }) => {
   });
 
   return (
-    <div id="temasehat" className="relative flex flex-col md:my-0 sm:bg-transparent  -my-24  items-center py-2 lg:py-5 px-2 md:px-10">
+    <div id="temasehat" className="relative flex flex-col sm:bg-transparent items-center py-2 lg:py-5 px-2 md:px-10">
       <h1 className="font-newamsterdam hidden md:block text-2xl md:text-3xl py-2 z-20">Tema sehat</h1>
       <div className="grid grid-cols-5 sm:grid-cols-2 lg:grid-cols-3 gap-2 justify-items-center z-20">
         <div
