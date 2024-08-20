@@ -168,8 +168,8 @@ const Content5 = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Dampak apabila tidak menjaga{" "}
-            <span className="text-sky-500">lingkungan</span>
+            Dampak apabila tidak menjaga
+            <span className="text-sky-500"> lingkungan</span>
           </h1>
 
           <div className="flex flex-col xl:px-72 w-full lg:flex-row-reverse items-center justify-evenly">

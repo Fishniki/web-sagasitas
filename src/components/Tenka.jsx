@@ -11,7 +11,7 @@ const Tenka = () => {
       className="w-full h-screen flex items-center justify-center bg-cover bg-center mb-8 px-6 py-10"
       style={{ backgroundImage: `url(${TenkaImage})` }}
     >
-      <div data-aos="zoom-out" className="bg-white bg-opacity-80 p-8 rounded-lg shadow-lg max-w-4xl w-full">
+      <div data-aos="zoom-out" className=" p-8 rounded-lg max-w-4xl w-full">
         <div className="flex flex-col md:flex-row items-center md:justify-evenly">
           <div className="w-32 mb-6 md:mb-0">
             <img src={Logo} alt="Logo SaveLife" />

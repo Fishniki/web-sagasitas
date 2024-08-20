@@ -4,7 +4,6 @@ import MyTeam from "../components/Myteam";
 import Navbar from "../components/Navbar";
 import Tenka from "../components/Tenka";
 import Type from "../components/Type";
-import Footer from "../components/Footer";
 import Conskas2 from "../components/pageconkas/Conskas2";
 import Conskas3 from "../components/pageconkas/Conskas3";
 import Conskas4 from "../components/pageconkas/Conskas4";
@@ -15,6 +14,11 @@ import Content4 from "../components/pagecontent/Content4";
 import Content5 from "../components/pagecontent/Content5";
 import Conskas from "../components/pageconkas/Conskas";
 import Content from "../components/pagecontent/Content";
+import Footer4 from "../components/pagefooter/Footer3";
+import Footer from "../components/pagefooter/Footer";
+import Footer3 from "../components/pagefooter/Footer3";
+import Footer2 from "../components/pagefooter/Footer2";
+import Footer5 from "../components/pagefooter/Footer5";
 
 const Home = () => {
   const [selectedType, setSelectedType] = useState(1);
@@ -57,6 +61,23 @@ const Home = () => {
     }
   };
 
+  const renderFooter = () => {
+    switch (selectedType) {
+      case 1 :
+        return <Footer/>
+      case 2:
+        return <Footer2 />;
+      case 3:
+        return <Footer3 />;
+      case 4:
+        return <Footer4/>;
+      case 5:
+        return <Footer5 />;
+      default:
+        return <Footer4/>;
+    }
+  }
+
   return (
     <div>
       <Navbar />
@@ -66,7 +87,7 @@ const Home = () => {
       {renderContent()}
       {renderConskas()}
       <MyTeam />
-      <Footer />
+      {renderFooter()}
     </div>
   );
 };
