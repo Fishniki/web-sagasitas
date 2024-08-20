@@ -57,10 +57,21 @@ const Navbar = () => {
           <img src={Logo} className="w-11" alt="Logo" />
         </div>
         <ul className="flex flex-col font-signika space-y-3 p-4 text-white">
-          <li className="p-2 cursor-pointer">Home</li>
-          <li className="p-2 cursor-pointer">Tema Sehat</li>
-          <li className="p-2 cursor-pointer">kasus</li>
-          <li className="p-2 cursor-pointer">Tentang Kami</li>
+          <a href="#beranda">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Beranda</li>
+          </a>
+          <a href="#conkas">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Kasus</li>
+          </a>
+          <a href="#temasehat">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tema Sehat</li>
+          </a>
+          <a href="#timkami">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tim kamu</li>
+          </a>
+          <a href="#tentangkami">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tentang Kami</li>
+          </a>
         </ul>
       </div>
     </>

@@ -17,7 +17,7 @@ const Conskas = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Stunting di Indonesia</h2>
+              <h2 className="text-xl md:text-2xl font-bold text-sky-400 mb-4">Stunting di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
                   Stunting merujuk pada anak dengan tinggi badan terlalu rendah untuk usianya, wasting merujuk pada anak yang terlalu kurus untuk tinggi badannya.
@@ -49,7 +49,7 @@ const Conskas = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-[#FF8343] mb-4">Gondokan di Indonesia</h2>
+              <h2 className="text-xl md:text-2xl font-bold text-[#FF8343] mb-4">Gondokan di Indonesia</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">
                   Gondongan adalah penyakit menular yang disebabkan oleh virus gondongan. Penyakit ini ditandai dengan pembengkakan kelenjar parotis, yang terletak di bawah telinga dan di depan rahang.

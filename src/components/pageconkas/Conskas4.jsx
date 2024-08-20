@@ -47,7 +47,7 @@ const Conskas4 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-[#FF8343] mb-4">Tiga anak di Jateng dan Jatim lumpuh layu akibat polio
+              <h2 className="text-xl md:text-2xl font-bold text-[#FF8343] mb-4">Tiga anak di Jateng dan Jatim lumpuh layu akibat polio
               </h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">

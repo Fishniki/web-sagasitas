@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Gangguan from "/src/assets/img/sehatj.png";
-import Gondokan from "/src/assets/img/2.png";
+import Sehatj4 from "/src/assets/img/sehatj4.png";
 
 const Conskas3 = () => {
   const [activeCase, setActiveCase] = useState(1); // State untuk melacak tombol yang diklik
@@ -17,7 +17,7 @@ const Conskas3 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-sky-400 mb-4">Gangguan kesehatan mental menyebabkan kematian</h2>
+              <h2 className="text-xl md:text-2xl font-bold text-sky-400 mb-4">Masalah psikologi penyebab bunuh diri</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base font-roboto text-justify">
                 Mahasiswa Universitas Gadjah Mada (UGM) meninggal bunuh diri di salah satu Hotel di Yogyakarta, pada Sabtu (8/10/2022). Keputusan bunuh diri diduga karena masalah psikologi yang dialami korban.
@@ -25,10 +25,13 @@ const Conskas3 = () => {
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                   
+                   cara mengatasi gangguan kejiwaan pada diri anda
                   </h1>
                   <ul className="list-disc font-roboto text-sm md:text-[15px] px-5">
-                   
+                    <li>Terapi Psikologis</li>
+                    <li>Meditasi</li>
+                    <li>Olahraga</li>
+                    <li>Mengatur Pola Makan</li>
                   </ul>
                 </div>
               </div>
@@ -44,27 +47,26 @@ const Conskas3 = () => {
         <div className="w-full">
           <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-10 md:space-y-0">
             <div className="flex-1 max-w-md px-7">
-              <h2 className="text-2xl md:text-4xl font-bold text-[#FF8343] mb-4">Gondokan di Indonesia</h2>
+              <h2 className="text-xl md:text-2xl font-bold text-[#FF8343] mb-4">Benturan kepala mengakibatkan kematian</h2>
               <div className="overflow-y-scroll max-h-64">
                 <p className="text-sm md:text-base text-justify">
-                  Gondongan adalah penyakit menular yang disebabkan oleh virus gondongan. Penyakit ini ditandai dengan pembengkakan kelenjar parotis, yang terletak di bawah telinga dan di depan rahang.
-                  Pada tahun 2024, terdapat peningkatan kasus gondongan di Jakarta. Menurut data Dinas Kesehatan DKI Jakarta, terdapat 1.234 kasus gondongan pada Januari-Juni 2024. Angka ini meningkat
-                  dibandingkan dengan tahun 2023, di mana terdapat 876 kasus gondongan pada periode yang sama.
+                  Kejadian trauma kepala di dunia sekitar 811-979 per 100 ribu per tahun. Sedangkan angka kejadian trauma kepala di Indonesia pada tahun 2013 di 33 Provinsi di Indonesia sebesar 8,2% dan insiden kematian akibat trauma kepala sejumlah 100.000. Sayangnya jumlah pasien trauma kepala yang datang ke rumah sakit masih rendah yaitu hanya sekitar 475-643 per 100 ribu orang per tahun. Padahal diperkirakan sekitar 50-60 juta kasus baru trauma kepala di seluruh dunia. Oleh karna itu kesadaran untuk berobat pada pasien trauma kepala masih harus ditingkatkan.
+                  Sekitar 50% kematian akibat cedera kepala terjadi dalam hitungan menit pasca cedera di tempat kejadian ataupun pada saat perjalanan ke rumah sakit.
                 </p>
                 <div className="mt-10">
                   <h1 className="font-newamsterdam text-[15px] md:text-2xl">
-                    Upaya yang harus dilakukan untuk mengatasi masalah Gondokan
+                    Langkah utama mengatasi benturan kepala
                   </h1>
-                  <ul className="list-disc text-sm md:text-xl pl-5">
-                    <li>Rutin mencuci tangan dengan sabun dan air mengalir.</li>
-                    <li>Tidak berbagi peralatan mandi atau makan dengan penderita.</li>
-                    <li>Menerapkan etika batuk, seperti menutup mulut dan hidung dengan tisu ketika batuk dan bersin.</li>
+                  <ul className="list-disc text-base pl-5">
+                    <li>Mengompres bagian yang terbentur dengan kain yang dibasahi/dingin.</li>
+                    <li>Minum Obat pereda nyeri, seperti paracetamol</li>
+                    <li> Hindari Minum Alkohol ataupun Obat Penenang Lainnya.</li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className="flex-1 max-w-md">
-              <img src={Gondokan} className="md:w-full md:h-auto w-60 object-cover rounded-lg" alt="Gondokan"/>
+              <img src={Sehatj4} className="md:w-full md:h-auto w-60 object-cover rounded-lg" alt="Gondokan"/>
             </div>
           </div>
         </div>
